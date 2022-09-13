@@ -1,0 +1,2276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{50F39DD5-490B-4B1A-8F1A-53B26DB46DD2}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="VIMonitorPlus" Key="{31773853-30B7-424E-8F75-6DD7E89FAFEB}">
+						<TypeInfo Item0="{CCFD6327-0673-4994-92A8-258998993F3E}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="VIMonitorPlus" />
+							</Property>
+							<Property Name="FullName">
+								<Value Value="Sys.Process(&quot;VIMonitorPlus&quot;)" />
+							</Property>
+							<Property Name="UserName">
+								<Value Value="LENOVO" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_LoginWindow" Key="{1B16A2E6-0478-48CE-B106-0BEC15F3218D}" ExtendedFind="True">
+								<Image FileName="1967383569" Left="0" Top="0" Right="875" Bottom="563" />
+								<TypeInfo Item0="{55478C1D-11CD-4530-B730-B011C7379C81}" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="System.Windows.Controls.Image" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="HwndSource_MainWindow" Key="{FDB30AD8-8274-4393-9E54-90C63C03B342}" ExtendedFind="True">
+								<Image FileName="-1080233991" Left="0" Top="0" Right="1938" Bottom="1038" />
+								<TypeInfo Item0="{55478C1D-11CD-4530-B730-B011C7379C81}" />
+								<Properties>
+									<Property Name="WndCaption">
+										<Value Value="VI MonitorPlus" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MainWindow" Key="{CEA0A625-FF3D-4184-A5DD-A3B902DD7D9A}" ExtendedFind="True">
+										<Image FileName="-1080233991" Left="9" Top="9" Right="1948" Bottom="1048" />
+										<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+										<Properties>
+											<Property Name="WPFControlText">
+												<Value Value="VI MonitorPlus" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="tabWorkspaces" Key="{93EC647E-4C1A-4281-8FFC-B3A0DDFE9A60}" ExtendedFind="True">
+												<Image FileName="-1080233991" Left="249" Top="85" Right="1930" Bottom="1030" />
+												<TypeInfo Item0="{BAE65842-AA5B-453F-99F7-ADF1A18D944F}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="tabWorkspaces" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="StackPanel" Key="{8B17CCD3-8AEF-4530-994C-C18EC85233FD}" ExtendedFind="True">
+														<Image FileName="-233222392" Left="262" Top="463" Right="1915" Bottom="530" />
+														<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.StackPanel" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Border" Key="{EDE335B1-B1F9-40AE-88C1-F23AB9A11B24}" ExtendedFind="True">
+																<Image FileName="-233222392" Left="262" Top="463" Right="1915" Bottom="516" />
+																<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Border" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="imgMap" Key="{1FAAE195-CC09-4983-95C2-9F3184417521}" ExtendedFind="True">
+														<Image FileName="-488336742" Left="635" Top="241" Right="1488" Bottom="900" />
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="imgMap" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="cboLayoutType" Key="{41E7FE94-37D3-4E4A-AB1A-E11B6A325786}" ExtendedFind="True">
+														<Image FileName="-240780863" Left="241" Top="964" Right="418" Bottom="1018" />
+														<TypeInfo Item0="{4FDCCF60-F94E-438D-A987-976223F6E3BB}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="cboLayoutType" />
+															</Property>
+															<Property Name="Visible">
+																<Value Value="True" Type="6" />
+															</Property>
+															<Property Name="VisibleOnScreen">
+																<Value Value="True" Type="6" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="StackPanel3" Key="{C8006803-F338-4C7E-8335-4D59B9F603FC}" ExtendedFind="True">
+														<Image FileName="-675373844" Left="253" Top="128" Right="1906" Bottom="443" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.StackPanel" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value Value="2" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Button" Key="{DB596E96-7AC4-4E96-8D66-70E1BA8254C6}" ExtendedFind="True">
+																<Image FileName="1468685120" Left="1243" Top="200" Right="1394" Bottom="313" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Button" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="7" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Camera18" Key="{BDCBB246-9B76-456F-9FDB-457605205E45}" ExtendedFind="True">
+																<Image FileName="-211138756" Left="1405" Top="200" Right="1556" Bottom="313" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Button" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="8" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Button4" Key="{03416C28-4C18-431A-BA75-242FA0AD57FC}" ExtendedFind="True">
+																<Image FileName="1901179077" Left="757" Top="326" Right="908" Bottom="439" />
+																<TypeInfo Item0="{5E5FF302-FF27-4403-BFF7-65DCD20B39A3}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Button" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="14" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Button3" Key="{C2886FB6-EE0E-4D7F-93CE-9EB4DE09A957}" ExtendedFind="True">
+																<Image FileName="-406447523" Left="280" Top="209" Right="431" Bottom="322" />
+																<TypeInfo Item0="{5E5FF302-FF27-4403-BFF7-65DCD20B39A3}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Button" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Button5" Key="{7BC39FD8-C607-4696-9E0A-B8846B18FCFC}" ExtendedFind="True">
+																<Image FileName="-406447523" Left="604" Top="209" Right="755" Bottom="322" />
+																<TypeInfo Item0="{5E5FF302-FF27-4403-BFF7-65DCD20B39A3}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Button" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="3" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Button6" Key="{C5A08CA9-919E-49E6-95BF-95946A112BBF}" ExtendedFind="True">
+																<Image FileName="-406447523" Left="766" Top="209" Right="917" Bottom="322" />
+																<TypeInfo Item0="{5E5FF302-FF27-4403-BFF7-65DCD20B39A3}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Button" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="4" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Textblock2Cameras" Key="{652C13AF-0F04-4666-9E70-2DC0C0B486FA}" ExtendedFind="True">
+																<Image FileName="-406447523" Left="482" Top="284" Right="552" Bottom="305" />
+																<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TextBlock" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="2 Cameras" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Button2" Key="{4B35E2AA-E1C8-4D27-B51E-F1EE710B43E1}" ExtendedFind="True">
+																<Image FileName="-1626930951" Left="433" Top="200" Right="584" Bottom="313" />
+																<TypeInfo Item0="{66A167D4-94D9-4B7A-ADBF-14C8FE3827CE}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Button" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="playbackModeButton" Key="{8CA5129A-243B-4054-A90C-F61BA2AF6899}" ExtendedFind="True">
+														<Image FileName="433433063" Left="1850" Top="973" Right="1891" Bottom="1027" />
+														<TypeInfo Item0="{5E5FF302-FF27-4403-BFF7-65DCD20B39A3}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="playbackModeButton" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="WindowCommands" Key="{881B495C-DD81-4E7B-8B15-6CF71C01B828}" ExtendedFind="True">
+												<Image FileName="1604655504" Left="1553" Top="0" Right="1795" Bottom="39" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="MahApps.Metro.Controls.WindowCommands" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="WindowCommandsItem" Key="{6B67D98F-3D48-4714-A307-E5F57EFA3032}" ExtendedFind="True">
+														<Image FileName="1604655504" Left="1553" Top="0" Right="1795" Bottom="39" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="MahApps.Metro.Controls.WindowCommandsItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextblockAccoutn" Key="{B9A8DF6A-0A28-4B67-A8AB-F1D2B51A62C3}" ExtendedFind="True">
+																<Image FileName="1604655504" Left="1569" Top="9" Right="1661" Bottom="30" />
+																<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TextBlock" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="*" />
+																	</Property>
+																	<Property Name="Text">
+																		<Value Value="*" />
+																	</Property>
+																	<Property Name="Name">
+																		<Value Value="WPFObject(&quot;TextBlock&quot;, &quot;*&quot;, 1)" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="Grid" Key="{7A9D51C4-9428-443A-A3D2-7B0393777031}" ExtendedFind="True">
+																<Image FileName="873737918" Left="1706" Top="0" Right="1745" Bottom="39" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Grid" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="AlertPB" Key="{BF19F267-1699-43D5-84CF-E66AA697A54F}" ExtendedFind="True">
+																		<Image FileName="873737918" Left="1706" Top="0" Right="1745" Bottom="39" />
+																		<Properties>
+																			<Property Name="WPFControlName">
+																				<Value Value="AlertPB" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="Grid2" Key="{49126229-0D39-4678-999B-9210B5B282E6}" ExtendedFind="True">
+																<Image FileName="1816332268" Left="1667" Top="0" Right="1706" Bottom="39" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.Grid" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="UserPB" Key="{BBF148ED-88F0-4ED1-81DE-822B3AE0D4FB}" ExtendedFind="True">
+																		<Image FileName="1816332268" Left="1667" Top="0" Right="1706" Bottom="39" />
+																		<Properties>
+																			<Property Name="WPFControlName">
+																				<Value Value="UserPB" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="RuleMenu" Key="{662ABEA9-C9A3-4E31-AAA4-63D3B1B746C9}" ExtendedFind="True">
+																<Image FileName="-406447523" Left="1754" Top="9" Right="1793" Bottom="48" />
+																<TypeInfo Item0="{5E5FF302-FF27-4403-BFF7-65DCD20B39A3}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value Value="RuleMenu" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="expServers" Key="{F8095B97-3EB2-40C6-840B-8B1A97AA2B56}" ExtendedFind="True">
+												<Image FileName="1194899234" Left="0" Top="115" Right="233" Bottom="898" />
+												<TypeInfo Item0="{5B399155-BC60-4820-A210-C2C2C4C5F586}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expServers" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="mnuMain" Key="{1CE0EAB8-655F-4EF1-962A-58112E517F84}" ExtendedFind="True">
+												<Image FileName="225699598" Left="0" Top="38" Right="1921" Bottom="75" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="mnuMain" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="mnuAdministration" Key="{7DE1355E-6363-4451-AB48-3134CF143AF2}" ExtendedFind="True">
+														<Image FileName="225699598" Left="257" Top="40" Right="381" Bottom="72" />
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="mnuAdministration" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="WindowButtonCommands" Key="{CE0091EB-7CED-4B40-8799-6EA2AFD90807}" ExtendedFind="True">
+												<Image FileName="1825720745" Left="1794" Top="0" Right="1921" Bottom="39" />
+												<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="MahApps.Metro.Controls.WindowButtonCommands" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="treeSearch" Key="{668D5D8A-70BA-4427-9C35-73B0D7C9E6CB}" ExtendedFind="True">
+												<Image FileName="1342978002" Left="9" Top="124" Right="242" Bottom="866" />
+												<TypeInfo Item0="{D8CB4A8A-DD31-4999-8164-667DA177931B}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Documents.AdornerLayer" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MainwindowSearchResult" Key="{AA17B2F8-4BCC-4871-9B8E-209E8ED517FA}" ExtendedFind="True">
+														<Image FileName="1336719809" Left="10" Top="124" Right="241" Bottom="156" />
+														<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="Visible">
+																<Value Value="True" Type="6" />
+															</Property>
+															<Property Name="ChildCount">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="StackPanel" Key="{D52023CF-91E1-43AC-848A-FB7ED0485EE2}">
+																<Image FileName="1336719809" Left="35" Top="131" Right="241" Bottom="152" />
+																<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.StackPanel" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="expSearch" Key="{B03A58F9-3E88-482A-81F0-6B927553B453}" ExtendedFind="True">
+												<Image FileName="-1006197753" Left="0" Top="74" Right="233" Bottom="116" />
+												<TypeInfo Item0="{5B399155-BC60-4820-A210-C2C2C4C5F586}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expSearch" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="treeSearch" Key="{C9E50132-C98C-4985-A6F0-CBFD7B29367C}" ExtendedFind="True">
+														<Image FileName="-1511747055" Left="0" Top="115" Right="233" Bottom="857" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="treeSearch" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TreeviewitemPocView1" Key="{60D44443-48AF-4C15-84EC-FEA1C7700C1B}" ExtendedFind="True">
+																<Image FileName="-1511747055" Left="1" Top="115" Right="232" Bottom="147" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TreeViewItem" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="POC_View1" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TextblockPocView1" Key="{E8780B00-731F-47BF-9158-C317057862E1}" ExtendedFind="True">
+																		<Image FileName="-1511747055" Left="53" Top="122" Right="128" Bottom="143" />
+																		<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.TextBlock" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="POC_View1" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="expCameras" Key="{F2F24B29-E62E-4CF9-AE7E-38795C20B9AF}" ExtendedFind="True">
+												<Image FileName="-1203774305" Left="0" Top="896" Right="233" Bottom="938" />
+												<TypeInfo Item0="{5B399155-BC60-4820-A210-C2C2C4C5F586}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expCameras" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="treeCameras" Key="{F8013F00-B19D-4F00-B328-F4F9354D8D01}" ExtendedFind="True">
+														<Image FileName="422538907" Left="0" Top="197" Right="233" Bottom="939" />
+														<TypeInfo Item0="{DC15BE71-EC49-46BF-B2CD-4C0EB0C84B3C}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="treeCameras" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="expLayouts" Key="{B3985B3F-C9EA-4CC8-A9CD-5A6415912A82}" ExtendedFind="True">
+												<Image FileName="2037521266" Left="0" Top="938" Right="233" Bottom="979" />
+												<TypeInfo Item0="{5B399155-BC60-4820-A210-C2C2C4C5F586}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expLayouts" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="treeLayouts" Key="{606EAD37-5945-4603-8343-E0A9686BB99F}" ExtendedFind="True">
+														<Image FileName="1201281698" Left="0" Top="238" Right="233" Bottom="979" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="treeLayouts" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="expMaps" Key="{C8E02E0C-7099-41FE-9D30-7407098FC245}" ExtendedFind="True">
+												<Image FileName="-621653084" Left="0" Top="978" Right="233" Bottom="1020" />
+												<TypeInfo Item0="{5B399155-BC60-4820-A210-C2C2C4C5F586}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expMaps" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="treeMaps" Key="{FA92C6AD-0B8A-45B1-A34D-D8C29528101B}" ExtendedFind="True">
+														<Image FileName="847739179" Left="0" Top="279" Right="233" Bottom="1021" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="treeMaps" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="WinFormsAdapter" Key="{905E00E9-9810-40E2-836B-DAF0DA5DEF12}" ExtendedFind="True">
+										<Image FileName="-2123025225" Left="241" Top="114" Right="1882" Bottom="964" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.Panel" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="VideoContainer" Key="{C4C680F7-BBE7-414C-BF2C-CEFCB6E8A8AB}">
+												<Image FileName="-2123025225" Left="241" Top="114" Right="1882" Bottom="964" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="VideoContainer" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="pnlBackground_6950726765843833856_0_3753112684744761249" Key="{BA9B7F3F-B94A-4D88-AF0C-740114292A14}">
+														<Image FileName="-942864116" Left="241" Top="114" Right="1061" Bottom="962" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_3753112684744761249" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="lblDisplayCtrl_6950726765843833856_990648698_3753112684744761249" Key="{DB332082-61B9-49B0-A0A6-4ECD9323E961}">
+																<Image FileName="1175380819" Left="242" Top="309" Right="1060" Bottom="768" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblDisplayCtrl_6950726765843833856_990648698_3753112684744761249" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_12401977592198128397" Key="{ACA7B17E-94D5-4538-BFDA-D3EBFE643B68}">
+														<Image FileName="1710870634" Left="1061" Top="114" Right="1881" Bottom="962" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_12401977592198128397" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="lblDisplayCtrl_6950726765843833856_406392038_12401977592198128397" Key="{D46A8AE8-74CC-4D94-9BFB-CCBDC710540F}">
+																<Image FileName="1710870634" Left="1062" Top="309" Right="1880" Bottom="768" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblDisplayCtrl_6950726765843833856_406392038_12401977592198128397" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="pnlBackground_EmptyServerList_0_18200774302212082740" Key="{84BB36F9-9B95-4BE0-9D87-D8EA5389ABC4}">
+														<Image FileName="-1343811826" Left="1061" Top="114" Right="1881" Bottom="962" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_EmptyServerList_0_18200774302212082740" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="lblDisplayCtrl_EmptyServerList_0_18200774302212082740" Key="{9881D7C1-30B9-4A1E-BB67-952AEAEC99DD}">
+																<Image FileName="-1343811826" Left="1062" Top="115" Right="1880" Bottom="961" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblDisplayCtrl_EmptyServerList_0_18200774302212082740" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="pnlBackground_EmptyServerList_0_13821590524154957167" Key="{DE2F1192-AEC5-468A-8E5C-8FA0E57F1439}">
+														<Image FileName="-1343811826" Left="241" Top="114" Right="1061" Bottom="962" />
+														<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_EmptyServerList_0_13821590524154957167" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_10947471488145003625" Key="{C21DFF00-897C-4CEF-B2EA-27716375F5B4}">
+														<Image FileName="-1064799597" Left="241" Top="114" Right="446" Bottom="397" />
+														<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_10947471488145003625" />
+															</Property>
+															<Property Name="ChildCount">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_13353488172084095870" Key="{5DD72F8C-3E33-4DAC-B429-D16BC4F00499}">
+														<Image FileName="64084156" Left="455" Top="123" Right="660" Bottom="406" />
+														<TypeInfo Item0="{E339EAE6-5041-4639-863E-E0F40DFB7EB6}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_13353488172084095870" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_15056904352359374772" Key="{FF3AF86F-CC13-486B-807E-D5C7E305E932}">
+														<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_15056904352359374772" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_17500462890428936937" Key="{50EF3740-2D10-4020-888E-06979A8A51A4}">
+														<Image FileName="1544475601" Left="241" Top="538" Right="1061" Bottom="962" />
+														<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_17500462890428936937" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_6445497542269588713" Key="{7F952E66-937C-41D8-98BB-53CDBC50392C}">
+														<Image FileName="-456871603" Left="241" Top="114" Right="1061" Bottom="538" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_6445497542269588713" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="lblDisplayCtrl_6950726765843833856_990648698_6445497542269588713" Key="{C0FE65AE-2FC6-4A8B-82FD-6A18425CB367}">
+																<Image FileName="-456871603" Left="275" Top="115" Right="1027" Bottom="537" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblDisplayCtrl_6950726765843833856_990648698_6445497542269588713" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_16423586375518687464" Key="{00154D24-CB34-46B1-A490-0FCF6481F327}">
+														<Image FileName="813418758" Left="1061" Top="114" Right="1881" Bottom="538" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_16423586375518687464" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="lblDisplayCtrl_6950726765843833856_406392038_16423586375518687464" Key="{A498B804-B5CD-4BB9-914E-69C85E41B6C9}">
+																<Image FileName="813418758" Left="1095" Top="115" Right="1847" Bottom="537" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblDisplayCtrl_6950726765843833856_406392038_16423586375518687464" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_9197682878936359476" Key="{91CB935E-68D2-4DC8-AFC8-F03BBAC843D6}">
+														<Image FileName="1655767005" Left="1061" Top="538" Right="1881" Bottom="962" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_9197682878936359476" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="lblDisplayCtrl_6950726765843833856_1791570276_9197682878936359476" Key="{551ADD7E-0541-465B-9A04-CD4732B49883}">
+																<Image FileName="1655767005" Left="1104" Top="539" Right="1839" Bottom="961" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblDisplayCtrl_6950726765843833856_1791570276_9197682878936359476" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="LoginWindow" Key="{78CF685C-8DE9-49DA-86B3-A1F00BC465F2}" ExtendedFind="True">
+										<Image FileName="1825253249" Left="0" Top="0" Right="876" Bottom="564" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="VIMonitorPlus.LoginWindow" />
+											</Property>
+											<Property Name="WPFControlText">
+												<Value Value="VI MonitorPlus" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnLogIn" Key="{6E9C5E7A-79F3-4E01-AEDE-0B55D0D3B736}" ExtendedFind="True">
+												<Image FileName="1825253249" Left="275" Top="464" Right="601" Bottom="502" />
+												<TypeInfo Item0="{66A167D4-94D9-4B7A-ADBF-14C8FE3827CE}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="btnLogIn" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="txtUserName" Key="{935C8317-FA93-4BCC-8487-019EDEA45282}" ExtendedFind="True">
+												<Image FileName="-1271924296" Left="86" Top="214" Right="306" Bottom="253" />
+												<TypeInfo Item0="{EB653A1F-A999-43A8-9609-73E2BB8DA2CB}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="txtUserName" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="txtPassword" Key="{DD8DD751-C4CB-4D86-9207-8A6493C4EC6C}" ExtendedFind="True">
+												<Image FileName="-1064574916" Left="86" Top="340" Right="306" Bottom="379" />
+												<TypeInfo Item0="{7C8DD0C9-B04C-41F5-A041-1CAEACD77225}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="txtPassword" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="cboLoginMode" Key="{C12B9D73-6C8C-4F1F-B266-AAACD6336553}" ExtendedFind="True">
+												<Image FileName="-1740004490" Left="395" Top="184" Right="784" Bottom="223" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="cboLoginMode" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_PopupRoot" Key="{C8CE9AB6-336C-452A-A4A9-7E60B49C7E92}" ExtendedFind="True">
+								<Image FileName="-428395218" Left="0" Top="0" Right="312" Bottom="979" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="LoginWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="VI MonitorPlus" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupRoot" Key="{9E35FBD5-6885-4DC2-BAC2-DD935402EF0E}">
+										<Image FileName="-428395218" Left="0" Top="0" Right="313" Bottom="980" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Controls.Primitives.PopupRoot" />
+											</Property>
+											<Property Name="VisibleOnScreen">
+												<Value Value="True" Type="6" />
+											</Property>
+											<Property Name="Visible">
+												<Value Value="True" Type="6" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TextblockDownloads" Key="{00A079FD-FD62-49C7-B1FE-53EE27D2B106}" ExtendedFind="True">
+												<Image FileName="-428395218" Left="7" Top="53" Right="312" Bottom="74" />
+												<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.TextBlock" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="Downloads" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ContextMenu" Key="{865F84DB-4825-422A-9208-147C2FCC57E1}" ExtendedFind="True">
+												<Image FileName="183278878" Left="0" Top="0" Right="149" Bottom="41" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.ContextMenu" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MenuitemDeleteUser" Key="{B33BA97C-9083-476E-B238-E689C004DB12}" ExtendedFind="True">
+														<Image FileName="183278878" Left="0" Top="0" Right="143" Bottom="35" />
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.MenuItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Delete User" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="NonLogicalAdornerDecorator" Key="{688DB2B7-4849-4E14-857A-C539D376B420}" ExtendedFind="True">
+												<Image FileName="-436003718" Left="0" Top="0" Right="233" Bottom="157" />
+												<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Documents.NonLogicalAdornerDecorator" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="ComboBoxItem" Key="{93BED62A-820C-49C1-B3C3-751925CADC7B}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.ComboBoxItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value Value="14" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_SecuritySetup" Key="{5630C116-9F6F-4793-9D5D-C0C222C7FD30}">
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="VI MonitorPlus" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SecuritySetup" Key="{DB49B1A2-98D7-44B2-BD65-BDCF1CB5F1C0}">
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="VideoInsight.CoreUI.Windows.SecuritySetup" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="treeUsers" Key="{C23F36BA-8366-45EA-8934-675A32C493C1}" ExtendedFind="True">
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="treeUsers" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TreeviewitemVikas4776" Key="{36B20E87-5C52-45C7-B6B1-1C2A9E6F69E5}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas4776" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas4962" Key="{E86C55C0-9778-43E5-BF4A-0096D1E563D6}" ExtendedFind="True">
+														<Image FileName="-530468578" Left="13" Top="783" Right="275" Bottom="815" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas4962" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas191" Key="{40751ACC-CB04-4DCC-B13E-DBAB70913CA9}" ExtendedFind="True">
+														<Image FileName="843633567" Left="13" Top="-581" Right="275" Bottom="-548" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas191" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="StackPanel" Key="{963738DD-861F-4FCE-9B17-9A29DE59972C}" ExtendedFind="True">
+																<Image FileName="843633567" Left="38" Top="-575" Right="275" Bottom="-554" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.StackPanel" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="TreeviewitemVikas3875" Key="{829A2342-0C63-4A1D-9584-580822D86DA2}" ExtendedFind="True">
+														<Image FileName="-1666576482" Left="13" Top="536" Right="275" Bottom="568" />
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas3875" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas3454" Key="{DC7BB017-EC07-4B1F-9151-FA73DAC28DDC}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas3454" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas2804" Key="{3113DA05-10D1-4AC0-9F06-00CE72D48668}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas2804" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas2659" Key="{70FCEC98-E59B-4A4C-8734-98BDA9E2C92F}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas2659" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas2259" Key="{0B009356-D6E5-449B-95F8-FC2EF12509D9}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas2259" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas1948" Key="{57996C28-466B-4352-AAE8-A97D441B747C}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas1948" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas1828" Key="{57EB7558-E54C-4096-BC6A-B5CDB98A0406}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas1828" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas1318" Key="{10CC2C37-2EA6-4FD4-9B9F-A7276CB8A01E}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas1318" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas969" Key="{C29E0D66-F75C-488E-8951-321C0C20254B}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas969" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas754" Key="{F75B576B-CB7C-447E-BAE2-432740FA175F}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas754" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas507" Key="{BC7E6FC6-1EC6-4874-A3E2-B42468788B02}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas507" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas283" Key="{34BC4940-8ECB-4CD3-825B-077D72FF6831}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas283" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemVikas52" Key="{9B0B45CD-772A-4633-AAE3-FF90882FDA73}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Vikas52" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh834" Key="{D67C814A-CBA7-4CA6-804E-772AA8A76F6F}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Suresh834" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh782" Key="{731176EB-5AB1-480D-943C-7E0801840875}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Suresh782" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh298" Key="{23783AE8-E20E-4861-BFA1-F82A54514D46}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Suresh298" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh196" Key="{06151A78-4785-44D4-8F9A-725A7E001929}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Suresh196" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh47" Key="{C6493804-C1C7-4009-94FA-01F5D8B3EFB0}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="Suresh47" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh620" Key="{BC1D29B1-2CB5-40AC-A935-4ECD270423C1}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="suresh620" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh400" Key="{DFC581F1-0C5E-45B0-BF1A-B224924B3802}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="suresh400" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh73" Key="{EFF6F35F-7345-4EDF-89C1-60F5F8E4FB1B}" ExtendedFind="True">
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="suresh73" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemNewUser" Key="{9C65E23C-7ACC-455D-AD37-FD90EDE95774}" ExtendedFind="True">
+														<Image FileName="1443406954" Left="13" Top="132" Right="275" Bottom="165" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="&lt;New User&gt;" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="StackPanel" Key="{309B01FD-21B5-47EB-BDD7-52355EEB1667}" ExtendedFind="True">
+																<Image FileName="1443406954" Left="38" Top="139" Right="275" Bottom="160" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.StackPanel" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="TreeviewitemSuresh252" Key="{EEB0398E-0627-4E3B-85C8-FAC9057EED43}" ExtendedFind="True">
+														<Image FileName="1852930481" Left="13" Top="505" Right="275" Bottom="537" />
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="suresh252" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh324" Key="{1D9CCA26-107F-4311-8FBB-118D18F7A796}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="suresh324" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh4" Key="{9311F6F3-8878-4959-ACFA-703CE8904BA4}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="suresh4" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemSuresh1" Key="{AFC75E43-3A70-4253-81FE-653858050C43}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="suresh1" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TreeviewitemDemouser1" Key="{C4C50E18-C169-4C2B-8BF6-A656800B709E}" ExtendedFind="True">
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="demouser1" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="TabControl" Key="{40D4E709-8ABD-4AD9-A6E2-697206CEDAF0}" ExtendedFind="True">
+												<Image FileName="-2080756401" Left="806" Top="98" Right="1529" Bottom="807" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.TabControl" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="RecordListControl" Key="{A3E3066D-58F5-468A-8BAB-7D1C760A5F78}" ExtendedFind="True">
+														<Image FileName="-2080756401" Left="820" Top="161" Right="1516" Bottom="794" />
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="Infragistics.Windows.DataPresenter.RecordListControl" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="expUsers" Key="{ED7A5321-746D-44FC-B924-07C5DBC875CA}" ExtendedFind="True">
+												<Image FileName="-309159177" Left="12" Top="91" Right="294" Bottom="829" />
+												<TypeInfo Item0="{5B399155-BC60-4820-A210-C2C2C4C5F586}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expUsers" />
+													</Property>
+													<Property Name="Visible">
+														<Value Value="True" Type="6" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="expSearch" Key="{F87D0ED8-C2D4-4412-8443-0C5A4387918E}" ExtendedFind="True">
+												<Image FileName="560947191" Left="12" Top="50" Right="294" Bottom="92" />
+												<TypeInfo Item0="{5B399155-BC60-4820-A210-C2C2C4C5F586}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="expSearch" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="treeSearch" Key="{52E82D30-EEF7-48CA-B59D-A69877173BFE}" ExtendedFind="True">
+														<Image FileName="-1887657015" Left="12" Top="91" Right="294" Bottom="787" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="treeSearch" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TreeviewitemVikas1119" Key="{B5BB6EFF-92B9-4265-A55F-B6E5547A47D3}" ExtendedFind="True">
+																<Image FileName="-1887657015" Left="13" Top="92" Right="293" Bottom="123" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TreeViewItem" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="Vikas1119" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="StackPanel" Key="{9BAD77EA-D5FD-44D3-A2A2-3378977423B9}" ExtendedFind="True">
+																		<Image FileName="-1887657015" Left="38" Top="98" Right="293" Bottom="119" />
+																		<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.StackPanel" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="TreeviewitemVikas1948" Key="{DC40A4D5-8B59-4D17-9678-6F4765818F2A}" ExtendedFind="True">
+																<Image FileName="-616687934" Left="13" Top="92" Right="293" Bottom="123" />
+																<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TreeViewItem" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="Vikas1948" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TextblockVikas1948" Key="{9B99E8EE-0E8E-49E5-98CB-E9FDB8F35219}" ExtendedFind="True">
+																		<Image FileName="849358092" Left="63" Top="98" Right="132" Bottom="119" />
+																		<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.TextBlock" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="Vikas1948" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="StackPanel" Key="{F725E7DB-430F-496B-AE77-3E792F1F9793}" ExtendedFind="True">
+																		<Image FileName="536119255" Left="38" Top="98" Right="293" Bottom="119" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.StackPanel" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="UserNameDelete" Key="{BE2E5798-C811-4143-B2D8-DF7AFA4471FB}" ExtendedFind="True">
+																<Image FileName="2022045074" Left="13" Top="92" Right="293" Bottom="123" />
+																<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TreeViewItem" />
+																	</Property>
+																	<Property Name="Name">
+																		<Value Value="WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 1)" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="stackpanel" Key="{6190A180-B9F8-4667-B101-3BBF16053640}" ExtendedFind="True">
+																		<Image FileName="-1447375945" Left="63" Top="98" Right="124" Bottom="119" />
+																		<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.TextBlock" />
+																			</Property>
+																			<Property Name="VisibleOnScreen">
+																				<Value Value="True" Type="6" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="StackPanel2" Key="{0A6274B9-6F36-413A-A483-410412DE47FC}" ExtendedFind="True">
+																		<Image FileName="96015808" Left="38" Top="98" Right="293" Bottom="119" />
+																		<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.StackPanel" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="MessageBoxVI" Key="{3FA78314-49BB-4257-913E-9C99FE844996}" ExtendedFind="True">
+								<Image FileName="-1124206154" Left="0" Top="0" Right="643" Bottom="225" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="pnlTop" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="VIMessageBox_Fill_Panel" Key="{BF63C56F-6184-4357-AF08-28FC221FBC17}">
+										<Image FileName="-1124206154" Left="1" Top="38" Right="642" Bottom="224" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="VIMessageBox_Fill_Panel" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="UltraPanelClientAreaUnsafe" Key="{AFD8A02C-A6E4-48D6-AC08-E6446E07CF3C}">
+												<Image FileName="-1124206154" Left="1" Top="38" Right="642" Bottom="224" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="Infragistics.Win.Misc.UltraPanelClientAreaUnsafe" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="pnlTop" Key="{EAE88E84-2D3D-4E3B-8E6F-B38FE1A62A19}">
+														<Image FileName="-1124206154" Left="1" Top="38" Right="642" Bottom="224" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlTop" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TableLayoutPanel1" Key="{0847ACBB-219F-4DD9-A271-389166B77373}">
+																<Image FileName="-1124206154" Left="14" Top="160" Right="629" Bottom="213" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="TableLayoutPanel1" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="btnYes" Key="{49F17FD2-4AD7-41B2-BE44-47ECC4DC8EF0}">
+																		<Image FileName="-1124206154" Left="219" Top="160" Right="315" Bottom="194" />
+																		<TypeInfo Item0="{376EE3F6-542C-466B-BCDB-33C9BDE554EC}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="btnYes" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="lblMessage" Key="{5C83DD87-8804-4DA8-B206-34B5E7AB0BF8}">
+																<Image FileName="1464362429" Left="14" Top="49" Right="629" Bottom="160" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblMessage" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_PopupRoot2" Key="{D68B0535-C9C4-4B1B-9C23-885E88C76DB5}">
+								<Image FileName="-1156650671" Left="0" Top="0" Right="312" Bottom="979" />
+								<TypeInfo Item0="{55478C1D-11CD-4530-B730-B011C7379C81}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="PopupRoot" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupRoot" Key="{3E4F7FE8-B6C9-4CC0-82DC-1680C5B38D04}">
+										<Image FileName="-1156650671" Left="0" Top="0" Right="313" Bottom="980" />
+										<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Controls.Primitives.PopupRoot" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Button" Key="{5AFB48E8-F275-4740-9F0F-D5530426D45A}" ExtendedFind="True">
+												<Image FileName="-1156650671" Left="117" Top="7" Right="158" Bottom="48" />
+												<TypeInfo Item0="{5E5FF302-FF27-4403-BFF7-65DCD20B39A3}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Button" />
+													</Property>
+													<Property Name="WPFControlText">
+														<Value Value="" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value Value="3" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{FE564F6E-A784-4926-A0C6-37A4A41F83B3}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{B1CADD4A-7FDE-483A-8476-5C861056FC71}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{2B663357-CBCC-4228-9D78-9A35C8EB765F}">
+										<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndDesktop" Key="{CDE9BEF4-3036-4653-887F-1787F9D86B34}">
+								<Image FileName="-1358799182" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Desktop" Key="{85442F02-FA5B-4A03-B8EE-BFF079A110F1}">
+										<Image FileName="-1358799182" Left="0" Top="162" Right="1920" Bottom="1020" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ShellTabWindowClass" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DUIViewWndClassName" Key="{8233B49D-AB7C-4A55-A5DB-138F84720F87}">
+												<Image FileName="-1358799182" Left="0" Top="162" Right="1920" Bottom="1020" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="DUIViewWndClassName" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Explorer_Pane" Key="{93DA6AD5-EC9E-4EEA-8D3A-3A295B3376DC}">
+														<Image FileName="-1358799182" Left="0" Top="162" Right="1920" Bottom="1020" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="DirectUI" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="HWNDView" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="pane" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Explorer_Pane" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CtrlNotifySink" Key="{90896CF6-7738-4670-80C9-72CCD1E870C9}">
+																<Image FileName="326183908" Left="200" Top="162" Right="1920" Bottom="991" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CtrlNotifySink" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="5" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ShellView" Key="{CA5C5763-782B-43EE-BB17-6E47A7558576}" ExtendedFind="True">
+																		<Image FileName="326183908" Left="200" Top="162" Right="1920" Bottom="991" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="SHELLDLL_DefView" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="ShellView" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Items_View" Key="{A915C49B-9AB5-4B35-9B65-16E5D058AE0E}">
+																				<Image FileName="326183908" Left="200" Top="162" Right="1920" Bottom="991" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItemsView" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Items_View" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="VI_MonitorPLus" Key="{E58B6C4A-4E77-4492-92D6-21FC445E2889}">
+																						<Image FileName="326183908" Left="218" Top="571" Right="965" Bottom="606" />
+																						<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="list item" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="VI_MonitorPLus" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="File217" Key="{FD6F1A9C-93F1-4B37-B8DF-1BF8BD59908E}">
+																						<Image FileName="-1835686908" Left="359" Top="170" Right="490" Bottom="317" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="list item" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="File217" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Name" Key="{03DE059A-5486-4C1F-926E-1166558BD43A}">
+																								<Image FileName="-1835686908" Left="399" Top="293" Right="450" Bottom="314" />
+																								<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="edit" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Name" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="CtrlNotifySink2" Key="{B13B6D04-E380-4DD2-B656-AC5B1552E354}">
+																<Image FileName="-1358799182" Left="3" Top="162" Right="195" Bottom="991" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CtrlNotifySink" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="4" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NamespaceTreeControl" Key="{E1B55A21-CFA5-4CAC-AACD-71F53B3AF37C}" ExtendedFind="True">
+																		<Image FileName="-1358799182" Left="3" Top="162" Right="195" Bottom="991" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="NamespaceTreeControl" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="Namespace Tree Control" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="tvNamespaceTreeControl" Key="{83F8095E-0714-40C8-A718-1F90567E82F9}">
+																				<Image FileName="-1358799182" Left="3" Top="162" Right="195" Bottom="991" />
+																				<TypeInfo Item0="{688A0483-ABCB-4F48-8EF0-23A98D2F7E3D}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="SysTreeView32" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="Navigation Pane" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{83730041-F1F7-468C-BC08-03C9FF125A39}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{6D1F4566-1193-4DDA-BDA4-57DD1C4721A0}">
+								<Image FileName="1164707633" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{872E0B8F-113F-4C94-8D4A-E10CF43A5E38}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageInboxNikhilTadiOptimworksCom" Key="{39DB5B91-5437-4073-BBD3-D30FA640F0B9}">
+								<Image FileName="-1171458453" Left="0" Top="88" Right="1920" Bottom="1020" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mail.google.com/mail/u/0/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameGtnRosterIframeId" Key="{DC5FE6C7-1C58-4280-8FCF-E02604322275}">
+										<Image FileName="-1171458453" Left="85" Top="258" Right="405" Bottom="999" />
+										<TypeInfo Item0="{ED06B266-8D7A-4E59-93B6-B464B06A5626}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#gtn-roster-iframe-id" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;gtn-roster-iframe-id&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@aria-label=&apos;Chat&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@title=&apos;Chat&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[contains(@class, &apos;ir&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;talk_roster&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/iframe" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="VIMonitorPlus2" Key="{F7632F7A-1FDE-4023-86B4-F6B3A952AAD3}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="VIMonitorPlus" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{03CB7C48-4DBA-4D01-A964-BE56278F3620}">
+								<Image FileName="-915694482" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="VI MonitorPlus" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MainWindow" Key="{7CFBEA23-53B7-4E99-A92B-BC1CE9602419}">
+										<Image FileName="-915694482" Left="0" Top="0" Right="1939" Bottom="1039" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="VIMonitorPlus.MainWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="tabWorkspaces" Key="{CDAF5CE7-93D7-4BB4-AF9B-27CBD63FD4E7}" ExtendedFind="True">
+												<Image FileName="-915694482" Left="240" Top="74" Right="1921" Bottom="1021" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="tabWorkspaces" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnExportVideoClip" Key="{D0F0B5BC-D91D-46F0-8D1D-286248AF73E8}" ExtendedFind="True">
+														<Image FileName="-915694482" Left="1717" Top="964" Right="1758" Bottom="1018" />
+														<TypeInfo Item0="{66A167D4-94D9-4B7A-ADBF-14C8FE3827CE}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value Value="btnExportVideoClip" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="treeServers" Key="{14E822D8-2410-4E3B-9869-FB0B8DE6EB40}" ExtendedFind="True">
+												<Image FileName="1709359757" Left="0" Top="155" Right="233" Bottom="897" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="treeServers" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TreeviewitemDemoipCom" Key="{56CF115F-3221-4F78-AC27-997FD446D462}" ExtendedFind="True">
+														<Image FileName="1709359757" Left="1" Top="157" Right="232" Bottom="406" />
+														<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Controls.TreeViewItem" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value Value="demoip.com" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextblockDemoipCom" Key="{C1B4290D-BB0B-4FC2-9173-65E7F220AF1F}" ExtendedFind="True">
+																<Image FileName="-1475406747" Left="53" Top="162" Right="139" Bottom="183" />
+																<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TextBlock" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="demoip.com" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="TreeviewitemParkingCameraH265" Key="{BE047A93-87ED-49F9-B4A1-EEBF8770CE16}" ExtendedFind="True">
+																<Image FileName="-1452901491" Left="1" Top="187" Right="232" Bottom="220" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TreeViewItem" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="Parking Camera (H.265)" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TextblockParkingCameraH265" Key="{BB50EA99-A913-40E6-BDC8-04865598AF21}" ExtendedFind="True">
+																		<Image FileName="-1452901491" Left="68" Top="194" Right="225" Bottom="215" />
+																		<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																		<Properties>
+																			<Property Name="ClrFullClassName">
+																				<Value Value="System.Windows.Controls.TextBlock" />
+																			</Property>
+																			<Property Name="WPFControlText">
+																				<Value Value="Parking Camera (H.265)" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="TreeviewitemTrainCameraH264" Key="{B51E9526-9A12-4DB4-AFA0-4D4814629BCC}" ExtendedFind="True">
+																<Image FileName="-1827343317" Left="1" Top="219" Right="232" Bottom="251" />
+																<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="System.Windows.Controls.TreeViewItem" />
+																	</Property>
+																	<Property Name="WPFControlText">
+																		<Value Value="Train Camera (H.264)" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="WinFormsAdapter" Key="{3E90ED0B-7BDB-4703-B61D-F791DC515F8D}">
+										<Image FileName="-632220758" Left="241" Top="114" Right="1882" Bottom="964" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Forms.Integration.WinFormsAdapter" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="VideoContainer" Key="{1BC64BAE-A7A7-4627-AA70-EC845BBFEDF8}">
+												<Image FileName="-632220758" Left="241" Top="114" Right="1882" Bottom="964" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="VideoContainer" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="pnlBackground_6950726765843833856_0_4890587338688359686" Key="{DAF63B6E-3353-47ED-92A4-D237FC8189E3}">
+														<Image FileName="-632220758" Left="241" Top="114" Right="1061" Bottom="962" />
+														<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_4890587338688359686" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="pnlBackground_6950726765843833856_0_5013642087305423551" Key="{3B5663B6-5657-41AD-BACB-EBC10CEC9867}">
+														<Image FileName="307968270" Left="1061" Top="114" Right="1881" Bottom="962" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="pnlBackground_6950726765843833856_0_5013642087305423551" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="lblDisplayCtrl_6950726765843833856_406392038_5013642087305423551" Key="{E2D15E7A-50FC-4BDC-B4C2-2E7BAA939B41}">
+																<Image FileName="307968270" Left="1062" Top="309" Right="1880" Bottom="768" />
+																<TypeInfo Item0="{36FB5623-B981-454E-891B-1649AE12B913}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="lblDisplayCtrl_6950726765843833856_406392038_5013642087305423551" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_ExportMultiplexVideo" Key="{899BF4B4-83BF-4091-BE67-1ACFCAAC0E3B}">
+								<Image FileName="1611472211" Left="0" Top="0" Right="750" Bottom="767" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="ExportMultiplexVideo" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Export Multiplex Video Clip" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ExportMultiplexVideo" Key="{85E3DA3E-CDC0-4009-A469-2F5270FD9924}">
+										<Image FileName="1611472211" Left="0" Top="0" Right="751" Bottom="768" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="VIMonitorPlus.ExportMultiplexVideo" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="wtmTxtStartDateTime" Key="{06FF692F-AFB6-4FE0-889B-C50F5755EFB5}" ExtendedFind="True">
+												<Image FileName="1611472211" Left="141" Top="110" Right="325" Bottom="149" />
+												<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="wtmTxtStartDateTime" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="wtmTxtEndDateTime" Key="{8FBDE71A-772F-40A1-8AA7-5073188F9FE1}" ExtendedFind="True">
+												<Image FileName="1611472211" Left="497" Top="110" Right="687" Bottom="149" />
+												<TypeInfo Item0="{5B58D76A-6386-4978-84E5-27D1154CA5D7}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="wtmTxtEndDateTime" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_PopupRoot" Key="{EAD0B437-AF84-48F3-99D9-626A4F90699E}">
+								<TypeInfo Item0="{55478C1D-11CD-4530-B730-B011C7379C81}" />
+								<Properties>
+									<Property Name="Name">
+										<Value Value="WPFObject(&quot;HwndSource: PopupRoot&quot;, &quot;&quot;)" />
+									</Property>
+									<Property Name="ClrFullClassName">
+										<Value Value="System.Windows.Interop.HwndSource" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupRoot" Key="{0AA53DC4-1714-45AE-AE00-EE7ADCB18F11}">
+										<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="System.Windows.Controls.Primitives.PopupRoot" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Border" Key="{F638F479-E46D-476D-9280-1AC768B0F026}" ExtendedFind="True">
+												<TypeInfo Item0="{A4D6454D-4EA1-4DD9-9075-854229EAEF84}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="System.Windows.Controls.Border" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="VIMonitorPlus" Owner="{31773853-30B7-424E-8F75-6DD7E89FAFEB}">
+			<Child Name="HwndSource_LoginWindow" Owner="{1B16A2E6-0478-48CE-B106-0BEC15F3218D}" />
+			<Child Name="HwndSource_MainWindow" Owner="{FDB30AD8-8274-4393-9E54-90C63C03B342}">
+				<Child Name="MainWindow" Owner="{CEA0A625-FF3D-4184-A5DD-A3B902DD7D9A}">
+					<Child Name="tabWorkspaces" Owner="{93EC647E-4C1A-4281-8FFC-B3A0DDFE9A60}">
+						<Child Name="Border" Owner="{EDE335B1-B1F9-40AE-88C1-F23AB9A11B24}" />
+						<Child Name="imgMap" Owner="{1FAAE195-CC09-4983-95C2-9F3184417521}" />
+						<Child Name="cboLayoutType" Owner="{41E7FE94-37D3-4E4A-AB1A-E11B6A325786}" />
+						<Child Name="Camera1" Owner="{C2886FB6-EE0E-4D7F-93CE-9EB4DE09A957}" />
+						<Child Name="Camera4" Owner="{7BC39FD8-C607-4696-9E0A-B8846B18FCFC}" />
+						<Child Name="Camera8" Owner="{C5A08CA9-919E-49E6-95BF-95946A112BBF}" />
+						<Child Name="Textblock2Cameras" Owner="{652C13AF-0F04-4666-9E70-2DC0C0B486FA}" />
+						<Child Name="Button2" Owner="{4B35E2AA-E1C8-4D27-B51E-F1EE710B43E1}" />
+						<Child Name="playbackModeButton" Owner="{8CA5129A-243B-4054-A90C-F61BA2AF6899}" />
+					</Child>
+					<Child Name="WindowCommands" Owner="{881B495C-DD81-4E7B-8B15-6CF71C01B828}">
+						<Child Name="WindowCommandsItem" Owner="{6B67D98F-3D48-4714-A307-E5F57EFA3032}">
+							<Child Name="TextblockAccount" Owner="{B9A8DF6A-0A28-4B67-A8AB-F1D2B51A62C3}" />
+							<Child Name="AlertPB" Owner="{BF19F267-1699-43D5-84CF-E66AA697A54F}" />
+							<Child Name="UserPB" Owner="{BBF148ED-88F0-4ED1-81DE-822B3AE0D4FB}" />
+							<Child Name="RuleMenu" Owner="{662ABEA9-C9A3-4E31-AAA4-63D3B1B746C9}" />
+						</Child>
+					</Child>
+					<Child Name="expServers" Owner="{F8095B97-3EB2-40C6-840B-8B1A97AA2B56}" />
+					<Child Name="mnuMain" Owner="{1CE0EAB8-655F-4EF1-962A-58112E517F84}">
+						<Child Name="mnuAdministration" Owner="{7DE1355E-6363-4451-AB48-3134CF143AF2}" />
+					</Child>
+					<Child Name="WindowButtonCommands" Owner="{CE0091EB-7CED-4B40-8799-6EA2AFD90807}" />
+					<Child Name="treeSearch" Owner="{668D5D8A-70BA-4427-9C35-73B0D7C9E6CB}">
+						<Child Name="MainwindowSearchResult" Owner="{AA17B2F8-4BCC-4871-9B8E-209E8ED517FA}">
+							<Child Name="StackPanel" Owner="{D52023CF-91E1-43AC-848A-FB7ED0485EE2}" />
+						</Child>
+					</Child>
+					<Child Name="expSearch" Owner="{B03A58F9-3E88-482A-81F0-6B927553B453}">
+						<Child Name="treeSearch" Owner="{C9E50132-C98C-4985-A6F0-CBFD7B29367C}">
+							<Child Name="TreeviewitemPocView1" Owner="{60D44443-48AF-4C15-84EC-FEA1C7700C1B}">
+								<Child Name="TextblockPocView1" Owner="{E8780B00-731F-47BF-9158-C317057862E1}" />
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="expCameras" Owner="{F2F24B29-E62E-4CF9-AE7E-38795C20B9AF}">
+						<Child Name="treeCameras" Owner="{F8013F00-B19D-4F00-B328-F4F9354D8D01}" />
+					</Child>
+					<Child Name="expLayouts" Owner="{B3985B3F-C9EA-4CC8-A9CD-5A6415912A82}">
+						<Child Name="treeLayouts" Owner="{606EAD37-5945-4603-8343-E0A9686BB99F}" />
+					</Child>
+					<Child Name="expMaps" Owner="{C8E02E0C-7099-41FE-9D30-7407098FC245}">
+						<Child Name="treeMaps" Owner="{FA92C6AD-0B8A-45B1-A34D-D8C29528101B}" />
+					</Child>
+				</Child>
+				<Child Name="WinFormsAdapter" Owner="{905E00E9-9810-40E2-836B-DAF0DA5DEF12}">
+					<Child Name="VideoContainer" Owner="{C4C680F7-BBE7-414C-BF2C-CEFCB6E8A8AB}">
+						<Child Name="pnlBackground_6950726765843833856_0_3753112684744761249" Owner="{BA9B7F3F-B94A-4D88-AF0C-740114292A14}">
+							<Child Name="lblDisplayCtrl_6950726765843833856_990648698_3753112684744761249" Owner="{DB332082-61B9-49B0-A0A6-4ECD9323E961}" />
+						</Child>
+						<Child Name="pnlBackground_6950726765843833856_0_12401977592198128397" Owner="{ACA7B17E-94D5-4538-BFDA-D3EBFE643B68}">
+							<Child Name="lblDisplayCtrl_6950726765843833856_406392038_12401977592198128397" Owner="{D46A8AE8-74CC-4D94-9BFB-CCBDC710540F}" />
+						</Child>
+						<Child Name="pnlBackground_EmptyServerList_0_18200774302212082740" Owner="{84BB36F9-9B95-4BE0-9D87-D8EA5389ABC4}">
+							<Child Name="lblDisplayCtrl_EmptyServerList_0_18200774302212082740" Owner="{9881D7C1-30B9-4A1E-BB67-952AEAEC99DD}" />
+						</Child>
+						<Child Name="pnlBackground_EmptyServerList_0_13821590524154957167" Owner="{DE2F1192-AEC5-468A-8E5C-8FA0E57F1439}" />
+						<Child Name="pnlBackground_6950726765843833856_0_10947471488145003625" Owner="{C21DFF00-897C-4CEF-B2EA-27716375F5B4}" />
+						<Child Name="pnlBackground_6950726765843833856_0_13353488172084095870" Owner="{5DD72F8C-3E33-4DAC-B429-D16BC4F00499}" />
+						<Child Name="pnlBackground_6950726765843833856_0_15056904352359374772" Owner="{FF3AF86F-CC13-486B-807E-D5C7E305E932}" />
+						<Child Name="pnlBackground_6950726765843833856_0_17500462890428936937" Owner="{50EF3740-2D10-4020-888E-06979A8A51A4}" />
+						<Child Name="pnlBackground_6950726765843833856_0_6445497542269588713" Owner="{7F952E66-937C-41D8-98BB-53CDBC50392C}">
+							<Child Name="lblDisplayCtrl_6950726765843833856_990648698_6445497542269588713" Owner="{C0FE65AE-2FC6-4A8B-82FD-6A18425CB367}" />
+						</Child>
+						<Child Name="pnlBackground_6950726765843833856_0_16423586375518687464" Owner="{00154D24-CB34-46B1-A490-0FCF6481F327}">
+							<Child Name="lblDisplayCtrl_6950726765843833856_406392038_16423586375518687464" Owner="{A498B804-B5CD-4BB9-914E-69C85E41B6C9}" />
+						</Child>
+						<Child Name="pnlBackground_6950726765843833856_0_9197682878936359476" Owner="{91CB935E-68D2-4DC8-AFC8-F03BBAC843D6}">
+							<Child Name="lblDisplayCtrl_6950726765843833856_1791570276_9197682878936359476" Owner="{551ADD7E-0541-465B-9A04-CD4732B49883}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="LoginWindow" Owner="{78CF685C-8DE9-49DA-86B3-A1F00BC465F2}">
+					<Child Name="btnLogIn" Owner="{6E9C5E7A-79F3-4E01-AEDE-0B55D0D3B736}" />
+					<Child Name="txtUserName" Owner="{935C8317-FA93-4BCC-8487-019EDEA45282}" />
+					<Child Name="txtPassword" Owner="{DD8DD751-C4CB-4D86-9207-8A6493C4EC6C}" />
+					<Child Name="cboLoginMode" Owner="{C12B9D73-6C8C-4F1F-B266-AAACD6336553}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_PopupRoot" Owner="{C8CE9AB6-336C-452A-A4A9-7E60B49C7E92}">
+				<Child Name="PopupRoot" Owner="{9E35FBD5-6885-4DC2-BAC2-DD935402EF0E}">
+					<Child Name="TextblockDownloads" Owner="{00A079FD-FD62-49C7-B1FE-53EE27D2B106}" />
+					<Child Name="ContextMenu" Owner="{865F84DB-4825-422A-9208-147C2FCC57E1}">
+						<Child Name="MenuitemDeleteUser" Owner="{B33BA97C-9083-476E-B238-E689C004DB12}" />
+					</Child>
+					<Child Name="NonLogicalAdornerDecorator" Owner="{688DB2B7-4849-4E14-857A-C539D376B420}">
+						<Child Name="ComboBoxItem" Owner="{93BED62A-820C-49C1-B3C3-751925CADC7B}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_SecuritySetup" Owner="{5630C116-9F6F-4793-9D5D-C0C222C7FD30}">
+				<Child Name="SecuritySetup" Owner="{DB49B1A2-98D7-44B2-BD65-BDCF1CB5F1C0}">
+					<Child Name="treeUsers" Owner="{C23F36BA-8366-45EA-8934-675A32C493C1}">
+						<Child Name="TreeviewitemVikas4776" Owner="{36B20E87-5C52-45C7-B6B1-1C2A9E6F69E5}" />
+						<Child Name="TreeviewitemVikas4962" Owner="{E86C55C0-9778-43E5-BF4A-0096D1E563D6}" />
+						<Child Name="TreeviewitemVikas191" Owner="{40751ACC-CB04-4DCC-B13E-DBAB70913CA9}">
+							<Child Name="StackPanel" Owner="{963738DD-861F-4FCE-9B17-9A29DE59972C}" />
+						</Child>
+						<Child Name="TreeviewitemVikas3875" Owner="{829A2342-0C63-4A1D-9584-580822D86DA2}" />
+						<Child Name="TreeviewitemVikas3454" Owner="{DC7BB017-EC07-4B1F-9151-FA73DAC28DDC}" />
+						<Child Name="TreeviewitemVikas2804" Owner="{3113DA05-10D1-4AC0-9F06-00CE72D48668}" />
+						<Child Name="TreeviewitemVikas2659" Owner="{70FCEC98-E59B-4A4C-8734-98BDA9E2C92F}" />
+						<Child Name="TreeviewitemVikas2259" Owner="{0B009356-D6E5-449B-95F8-FC2EF12509D9}" />
+						<Child Name="TreeviewitemVikas1948" Owner="{57996C28-466B-4352-AAE8-A97D441B747C}" />
+						<Child Name="TreeviewitemVikas1828" Owner="{57EB7558-E54C-4096-BC6A-B5CDB98A0406}" />
+						<Child Name="TreeviewitemVikas1318" Owner="{10CC2C37-2EA6-4FD4-9B9F-A7276CB8A01E}" />
+						<Child Name="TreeviewitemVikas969" Owner="{C29E0D66-F75C-488E-8951-321C0C20254B}" />
+						<Child Name="TreeviewitemVikas754" Owner="{F75B576B-CB7C-447E-BAE2-432740FA175F}" />
+						<Child Name="TreeviewitemVikas507" Owner="{BC7E6FC6-1EC6-4874-A3E2-B42468788B02}" />
+						<Child Name="TreeviewitemVikas283" Owner="{34BC4940-8ECB-4CD3-825B-077D72FF6831}" />
+						<Child Name="TreeviewitemVikas52" Owner="{9B0B45CD-772A-4633-AAE3-FF90882FDA73}" />
+						<Child Name="TreeviewitemSuresh834" Owner="{D67C814A-CBA7-4CA6-804E-772AA8A76F6F}" />
+						<Child Name="TreeviewitemSuresh782" Owner="{731176EB-5AB1-480D-943C-7E0801840875}" />
+						<Child Name="TreeviewitemSuresh298" Owner="{23783AE8-E20E-4861-BFA1-F82A54514D46}" />
+						<Child Name="TreeviewitemSuresh196" Owner="{06151A78-4785-44D4-8F9A-725A7E001929}" />
+						<Child Name="TreeviewitemSuresh47" Owner="{C6493804-C1C7-4009-94FA-01F5D8B3EFB0}" />
+						<Child Name="TreeviewitemSuresh620" Owner="{BC1D29B1-2CB5-40AC-A935-4ECD270423C1}" />
+						<Child Name="TreeviewitemSuresh400" Owner="{DFC581F1-0C5E-45B0-BF1A-B224924B3802}" />
+						<Child Name="TreeviewitemSuresh73" Owner="{EFF6F35F-7345-4EDF-89C1-60F5F8E4FB1B}" />
+						<Child Name="TreeviewitemNewUser" Owner="{9C65E23C-7ACC-455D-AD37-FD90EDE95774}">
+							<Child Name="StackPanel" Owner="{309B01FD-21B5-47EB-BDD7-52355EEB1667}" />
+						</Child>
+						<Child Name="TreeviewitemSuresh252" Owner="{EEB0398E-0627-4E3B-85C8-FAC9057EED43}" />
+						<Child Name="TreeviewitemSuresh324" Owner="{1D9CCA26-107F-4311-8FBB-118D18F7A796}" />
+						<Child Name="TreeviewitemSuresh4" Owner="{9311F6F3-8878-4959-ACFA-703CE8904BA4}" />
+						<Child Name="TreeviewitemSuresh1" Owner="{AFC75E43-3A70-4253-81FE-653858050C43}" />
+						<Child Name="TreeviewitemDemouser1" Owner="{C4C50E18-C169-4C2B-8BF6-A656800B709E}" />
+					</Child>
+					<Child Name="TabControl" Owner="{40D4E709-8ABD-4AD9-A6E2-697206CEDAF0}">
+						<Child Name="RecordListControl" Owner="{A3E3066D-58F5-468A-8BAB-7D1C760A5F78}" />
+					</Child>
+					<Child Name="expUsers" Owner="{ED7A5321-746D-44FC-B924-07C5DBC875CA}" />
+					<Child Name="expSearch" Owner="{F87D0ED8-C2D4-4412-8443-0C5A4387918E}">
+						<Child Name="treeSearch" Owner="{52E82D30-EEF7-48CA-B59D-A69877173BFE}">
+							<Child Name="TreeviewitemVikas1119" Owner="{B5BB6EFF-92B9-4265-A55F-B6E5547A47D3}">
+								<Child Name="StackPanel" Owner="{9BAD77EA-D5FD-44D3-A2A2-3378977423B9}" />
+							</Child>
+							<Child Name="TreeviewitemVikas1948" Owner="{DC40A4D5-8B59-4D17-9678-6F4765818F2A}">
+								<Child Name="TextblockVikas1948" Owner="{9B99E8EE-0E8E-49E5-98CB-E9FDB8F35219}" />
+								<Child Name="StackPanel" Owner="{F725E7DB-430F-496B-AE77-3E792F1F9793}" />
+							</Child>
+							<Child Name="UserNameDelete" Owner="{BE2E5798-C811-4143-B2D8-DF7AFA4471FB}">
+								<Child Name="stackpanel" Owner="{6190A180-B9F8-4667-B101-3BBF16053640}" />
+								<Child Name="StackPanel2" Owner="{0A6274B9-6F36-413A-A483-410412DE47FC}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="MessageBoxVI" Owner="{3FA78314-49BB-4257-913E-9C99FE844996}">
+				<Child Name="VIMessageBox_Fill_Panel" Owner="{BF63C56F-6184-4357-AF08-28FC221FBC17}">
+					<Child Name="UltraPanelClientAreaUnsafe" Owner="{AFD8A02C-A6E4-48D6-AC08-E6446E07CF3C}">
+						<Child Name="pnlTop" Owner="{EAE88E84-2D3D-4E3B-8E6F-B38FE1A62A19}">
+							<Child Name="TableLayoutPanel1" Owner="{0847ACBB-219F-4DD9-A271-389166B77373}">
+								<Child Name="btnYes" Owner="{49F17FD2-4AD7-41B2-BE44-47ECC4DC8EF0}" />
+							</Child>
+							<Child Name="lblMessage" Owner="{5C83DD87-8804-4DA8-B206-34B5E7AB0BF8}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_PopupRoot2" Owner="{D68B0535-C9C4-4B1B-9C23-885E88C76DB5}">
+				<Child Name="PopupRoot" Owner="{3E4F7FE8-B6C9-4CC0-82DC-1680C5B38D04}">
+					<Child Name="Button" Owner="{5AFB48E8-F275-4740-9F0F-D5530426D45A}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{FE564F6E-A784-4926-A0C6-37A4A41F83B3}">
+			<Child Name="wndShell_TrayWnd" Owner="{B1CADD4A-7FDE-483A-8476-5C861056FC71}">
+				<Child Name="DesktopWindowXamlSource" Owner="{2B663357-CBCC-4228-9D78-9A35C8EB765F}" />
+			</Child>
+			<Child Name="wndDesktop" Owner="{CDE9BEF4-3036-4653-887F-1787F9D86B34}">
+				<Child Name="Desktop" Owner="{85442F02-FA5B-4A03-B8EE-BFF079A110F1}">
+					<Child Name="DUIViewWndClassName" Owner="{8233B49D-AB7C-4A55-A5DB-138F84720F87}">
+						<Child Name="Explorer_Pane" Owner="{93DA6AD5-EC9E-4EEA-8D3A-3A295B3376DC}">
+							<Child Name="CtrlNotifySink" Owner="{90896CF6-7738-4670-80C9-72CCD1E870C9}">
+								<Child Name="ShellView" Owner="{CA5C5763-782B-43EE-BB17-6E47A7558576}">
+									<Child Name="Items_View" Owner="{A915C49B-9AB5-4B35-9B65-16E5D058AE0E}">
+										<Child Name="VI_MonitorPLus" Owner="{E58B6C4A-4E77-4492-92D6-21FC445E2889}" />
+										<Child Name="File217" Owner="{FD6F1A9C-93F1-4B37-B8DF-1BF8BD59908E}">
+											<Child Name="Name" Owner="{03DE059A-5486-4C1F-926E-1166558BD43A}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+							<Child Name="CtrlNotifySink2" Owner="{B13B6D04-E380-4DD2-B656-AC5B1552E354}">
+								<Child Name="NamespaceTreeControl" Owner="{E1B55A21-CFA5-4CAC-AACD-71F53B3AF37C}">
+									<Child Name="tvNamespaceTreeControl" Owner="{83F8095E-0714-40C8-A718-1F90567E82F9}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{83730041-F1F7-468C-BC08-03C9FF125A39}">
+			<Child Name="BrowserWindow" Owner="{6D1F4566-1193-4DDA-BDA4-57DD1C4721A0}" />
+			<Child Name="pageInboxNikhilTadiOptimworksCom" Owner="{39DB5B91-5437-4073-BBD3-D30FA640F0B9}">
+				<Child Name="frameGtnRosterIframeId" Owner="{DC5FE6C7-1C58-4280-8FCF-E02604322275}" />
+			</Child>
+		</Child>
+		<Child Name="VIMonitorPlus2" Owner="{F7632F7A-1FDE-4023-86B4-F6B3A952AAD3}">
+			<Child Name="HwndSource_MainWindow" Owner="{03CB7C48-4DBA-4D01-A964-BE56278F3620}">
+				<Child Name="MainWindow" Owner="{7CFBEA23-53B7-4E99-A92B-BC1CE9602419}">
+					<Child Name="tabWorkspaces" Owner="{CDAF5CE7-93D7-4BB4-AF9B-27CBD63FD4E7}">
+						<Child Name="btnExportVideoClip" Owner="{D0F0B5BC-D91D-46F0-8D1D-286248AF73E8}" />
+					</Child>
+					<Child Name="treeServers" Owner="{14E822D8-2410-4E3B-9869-FB0B8DE6EB40}">
+						<Child Name="TreeviewitemDemoipCom" Owner="{56CF115F-3221-4F78-AC27-997FD446D462}">
+							<Child Name="TextblockDemoipCom" Owner="{C1B4290D-BB0B-4FC2-9173-65E7F220AF1F}" />
+							<Child Name="TreeviewitemParkingCameraH265" Owner="{BE047A93-87ED-49F9-B4A1-EEBF8770CE16}">
+								<Child Name="TextblockParkingCameraH265" Owner="{BB50EA99-A913-40E6-BDC8-04865598AF21}" />
+							</Child>
+							<Child Name="TreeviewitemTrainCameraH264" Owner="{B51E9526-9A12-4DB4-AFA0-4D4814629BCC}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="WinFormsAdapter" Owner="{3E90ED0B-7BDB-4703-B61D-F791DC515F8D}">
+					<Child Name="VideoContainer" Owner="{1BC64BAE-A7A7-4627-AA70-EC845BBFEDF8}">
+						<Child Name="pnlBackground_6950726765843833856_0_4890587338688359686" Owner="{DAF63B6E-3353-47ED-92A4-D237FC8189E3}" />
+						<Child Name="pnlBackground_6950726765843833856_0_5013642087305423551" Owner="{3B5663B6-5657-41AD-BACB-EBC10CEC9867}">
+							<Child Name="lblDisplayCtrl_6950726765843833856_406392038_5013642087305423551" Owner="{E2D15E7A-50FC-4BDC-B4C2-2E7BAA939B41}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_ExportMultiplexVideo" Owner="{899BF4B4-83BF-4091-BE67-1ACFCAAC0E3B}">
+				<Child Name="ExportMultiplexVideo" Owner="{85E3DA3E-CDC0-4009-A469-2F5270FD9924}">
+					<Child Name="wtmTxtStartDateTime" Owner="{06FF692F-AFB6-4FE0-889B-C50F5755EFB5}" />
+					<Child Name="wtmTxtEndDateTime" Owner="{8FBDE71A-772F-40A1-8AA7-5073188F9FE1}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_PopupRoot" Owner="{EAD0B437-AF84-48F3-99D9-626A4F90699E}">
+				<Child Name="PopupRoot" Owner="{0AA53DC4-1714-45AE-AE00-EE7ADCB18F11}">
+					<Child Name="Border" Owner="{F638F479-E46D-476D-9280-1AC768B0F026}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

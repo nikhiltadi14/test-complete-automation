@@ -1,0 +1,68 @@
+﻿#ḍef main():
+  # Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.TextblockNewWorkspaces.Click()
+   
+def Test1():
+  tabControl = Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces
+  aqObject.CheckProperty(tabControl.TextblockNewWorkspaces, "ClrClassName", cmpEqual, "TextBlock")
+  aqObject.CheckProperty(Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.Border, "IsVisible", cmpEqual, True)
+  aqObject.CheckProperty(tabControl.TextblockApplicationPlugIns, "ClrClassName", cmpEqual, "TextBlock")
+
+def Test2():
+  hwndSource = Aliases.VIMonitorPlus.HwndSource_MainWindow
+  hwndSource.MainWindow.tabWorkspaces.Button.ClickButton()
+  videoContainer = hwndSource.WinFormsAdapter.VideoContainer
+  aqObject.CheckProperty(videoContainer.pnlBackground_6950726765843833856_0_12408804398585512806, "Enabled", cmpEqual, True)
+  videoContainer.pnlBackground_6950726765843833856_0_16184689649413323230.Click(603, 112)
+
+def Test3():
+  VIMonitorPlus = Aliases.VIMonitorPlus
+  mainWindow = VIMonitorPlus.HwndSource_MainWindow.MainWindow
+  mainWindow.treeServers.ClickItem("|[0]|[6]")
+  windowCommandsItem = mainWindow.WindowCommands.WindowCommandsItem
+  windowCommandsItem.Click(77, 27)
+  aqObject.CheckProperty(windowCommandsItem.TextblockAdministrator, "WPFControlText", cmpEqual, "Administrator")
+  windowCommandsItem.AlertPB.ClickButton()
+  textBlock = VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.TextblockDownloads
+  OCR.Recognize(textBlock).BlockByText("Downloads").Click()
+  OCR.Recognize(textBlock).BlockByText("Downloads").Click()
+  aqObject.CheckProperty(textBlock, "WPFControlText", cmpEqual, "Downloads")
+
+def Test5():
+  loginWindow = Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow
+  textBox = loginWindow.txtUserName
+  textBox.Click(141, 24)
+  textBox.Keys("^a")
+  textBox.SetText("")
+  aqObject.CheckProperty(textBox, "IsVisible", cmpEqual, True)
+  textBox.SetText("Administrator")
+  aqObject.CheckProperty(loginWindow.txtPassword, "IsVisible", cmpEqual, True)
+
+def Test4():
+  aqObject.CheckProperty(Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.btnLogIn, "WPFControlText", cmpEqual, "Log In")
+
+def Test6():
+  aqObject.CheckProperty(Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow, "WPFControlText", cmpEqual, "VI MonitorPlus")
+  aqObject.CheckProperty(NameMapping.Sys.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.Button2, "IsVisible", cmpEqual, True)
+
+def Test7():
+  hwndSource = Aliases.VIMonitorPlus.HwndSource_MainWindow
+  mainWindow = hwndSource.MainWindow
+  treeViewItem = mainWindow.treeServers.TreeviewitemDemoipCom
+  treeViewItem2 = treeViewItem.TreeviewitemParkingCameraH265
+  aqObject.CheckProperty(treeViewItem2.TextblockParkingCameraH265, "WPFControlText", cmpEqual, "Parking Camera (H.265)")
+  treeViewItem2.Drag(184, 12, 291, 52)
+  treeViewItem2 = treeViewItem.TreeviewitemTrainCameraH264
+  aqObject.CheckProperty(treeViewItem2.TextblockTrainCameraH264, "WPFControlText", cmpEqual, "Train Camera (H.264)")
+  treeViewItem2.Drag(163, 18, 1074, 129)
+  videoContainer = hwndSource.WinFormsAdapter.VideoContainer
+  aqObject.CheckProperty(videoContainer.pnlBackground_6950726765843833856_0_3753112684744761249.lblDisplayCtrl_6950726765843833856_990648698_3753112684744761249, "Name", cmpEqual, "lblDisplayCtrl_6950726765843833856_990648698_3753112684744761249")
+  aqObject.CheckProperty(videoContainer.pnlBackground_6950726765843833856_0_12401977592198128397.lblDisplayCtrl_6950726765843833856_406392038_12401977592198128397, "Name", cmpEqual, "lblDisplayCtrl_6950726765843833856_406392038_12401977592198128397")
+  button = mainWindow.WindowCommands.WindowCommandsItem.UserPB
+  button.ClickButton()
+  button.PopupMenu.Click("Log Out")
+
+def Test8():
+  pass
+
+def Test9():
+  Aliases.explorer.wndShell_TrayWnd.DesktopWindowXamlSource.Click(1140, 25)

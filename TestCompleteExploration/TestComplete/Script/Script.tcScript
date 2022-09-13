@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Page">
+			<child name="drag_and_drop_camera_page" key="{342A85F3-9D30-4C4B-AAA2-9F089D5DCA19}" path="drag_and_drop_camera_page.py" />
+			<child name="delete_user_page" key="{4951CF11-7582-4B39-9632-55BAAA6F2A7C}" path="delete_user_page.py" />
+			<child name="main_window_search_page" key="{7E5D0F8A-128F-4BE4-BDCD-C81A675AA454}" path="main_window_search_page.py" />
+			<child name="verify_exp_section_page" key="{903516FC-54B0-4F91-9992-2B2C730145E6}" path="verify_exp_section_page.py" />
+			<child name="get_blank_camera_count_page" key="{07153D50-E576-4EBB-BE15-C04A2418406D}" path="get_blank_camera_count_page.py" />
+			<child name="verify_layout_type_page" key="{9A898B66-2995-4120-BF53-94BE8B04D4F9}" path="verify_layout_type_page.py" />
+			<child name="export_video_page" key="{0A7BFA7C-9ECA-4B04-98B9-F50A949CFBA7}" path="export_video_page.py" />
+			<child name="play_pause_forward" key="{A6CEB1F1-B3A1-498F-A676-0FBC5847A7DC}" path="play_pause_forward.py" />
+			<child name="camera_snapshot_record_view" key="{46E2AEDD-0B74-45EE-8C9F-A54F20F01805}" path="camera_snapshot_record_view.py" />
+		</folder>
+		<folder name="Test">
+			<child name="test_drag_and_drop_camera" key="{8B751315-6AC3-4542-A848-A76415904154}" path="test_drag_and_drop_camera.py" />
+			<child name="test_delete_user" key="{C4A6B35E-ACF8-4514-8DE5-3F15910F97E1}" path="test_delete_user.py" />
+			<child name="test_main_window_search" key="{0D410678-3533-4F08-A365-976E72AD962B}" path="test_main_window_search.py" />
+			<child name="test_verify_exp_section" key="{3D8572F9-7D48-4680-A557-4C24BB13383D}" path="test_verify_exp_section.py" />
+			<child name="test_get_blank_camera_count" key="{578788B7-8989-44D1-A42F-3538D040EA33}" path="test_get_blank_camera_count.py" />
+			<child name="test_verify_layout_type" key="{D066ACD1-10F5-48F6-B2C3-237791F904DB}" path="test_verify_layout_type.py" />
+			<child name="test_export_video" key="{06D9DFCA-3016-4CCC-A646-2CB3399EF312}" path="test_export_video.py" />
+			<child name="test_read_data_from_excel" key="{3F923C43-4F99-4BE2-9E8D-D4B24C39D56B}" path="test_read_data_from_excel.py" />
+			<child name="test_play_pause_backward_forward_surveillance" key="{052D4148-42D2-485B-BDE5-4F401C6AE78D}" path="test_play_pause_backward_forward_surveillance.py" />
+			<child name="test_camera_snapshot_record_view" key="{34E124C9-2513-4FB8-A912-32E65B0C509A}" path="test_camera_snapshot_record_view.py" />
+		</folder>
+		<child name="Record" key="{C6F5A320-4E8A-4F68-B6A4-868B3B4A219C}" path="Record.py" />
+		<child name="video_meta_data" key="{D9A65EAC-41CD-476E-A6C0-3F0F7EF44477}" path="video_meta_data.py" />
+		<child name="find_find_all_methods" key="{78C90B08-4231-46E9-917C-9EDF4ACF78D7}" path="find_find_all_methods.py" />
+		<child name="check_points" key="{0B4FFA15-0110-4D8C-8FF7-9FC5202C1375}" path="check_points.py" />
+		<child name="utility_method" key="{6918E04D-5509-4138-91D5-491B233AB5BC}" path="utility_method.py" />
+		<child name="get_property_method" key="{08C34661-7951-459B-A0AB-5D436545A4B5}" path="get_property_method.py" />
+		<child name="read_data_from_json" key="{4851761E-794D-4015-B7B4-829C08A05CFA}" path="read_data_from_json.py" />
+		<child name="read_data_from_config_file" key="{0F50823B-B316-4EA0-8ECB-C6DD89DB9F1F}" path="read_data_from_config_file.py" />
+		<child name="read_data_from_storage_ini" key="{9F60E629-3ABF-4A77-A77A-B9BD6731AF1F}" path="read_data_from_storage_ini.py" />
+		<child name="Check_for_positive_and_negitive_cases" key="{2F55E601-582A-48B7-9C5A-5B9C47131F23}" path="Check_for_positive_and_negitive_cases.py" />
+		<child name="read_config_file" key="{2371B2DD-C3AE-40DA-ACCB-E4F8593717FF}" path="read_config_file.py" />
+	</children>
+</Root>

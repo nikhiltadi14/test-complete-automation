@@ -1,0 +1,14 @@
+﻿def Main():
+  aqObject.CheckProperty(mainWindow.tabWorkspaces.Image, "IsVisible", cmpEqual, True)
+  NameMapping.Sys.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.Button2.ClickButton()
+
+def Test1():
+  Aliases.explorer.wndShell_TrayWnd.DesktopWindowXamlSource.Click(1160, 38)
+  VIMonitorPlus = Aliases.VIMonitorPlus
+  passwordBox = VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.txtPassword
+  passwordBox.SetText(Project.Variables.Password1)
+  passwordBox.Keys("[Enter]")
+  expander = VIMonitorPlus.HwndSource_MainWindow.MainWindow.expServers
+  expander.Collapse()
+  expander.Expand()
+  aqObject.CheckProperty(expander, "WPFControlText", cmpEqual, "Servers")

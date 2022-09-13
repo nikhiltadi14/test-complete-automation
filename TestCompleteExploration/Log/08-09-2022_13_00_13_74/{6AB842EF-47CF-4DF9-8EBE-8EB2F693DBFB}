@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44812.5420719213"/>
+				<Prp name="name" type="S" value="ProjectTestItem1 [Script\read_data_from_json - ReadJson]"/>
+				<Prp name="start time" type="D" value="44812.5419958218"/>
+				<Prp name="details" type="S" value="{3A48C77F-DE82-4B39-843F-54F346C148E5}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44812.5421616088"/>
+				<Prp name="name" type="S" value="ProjectTestItem3 [Script\read_data_from_storage_ini - StorageIni]"/>
+				<Prp name="start time" type="D" value="44812.542072037"/>
+				<Prp name="details" type="S" value="{B3D55099-1A8E-40AD-9160-628FD23B0D99}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44812.5419957639"/>
+				<Prp name="name" type="S" value="ProjectTestItem2 [Script\get_property_method - Main]"/>
+				<Prp name="start time" type="D" value="44812.5418208796"/>
+				<Prp name="details" type="S" value="{8F5937E4-903D-4890-A641-88672B0FF829}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

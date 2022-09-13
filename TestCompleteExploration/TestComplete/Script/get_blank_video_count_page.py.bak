@@ -1,0 +1,5 @@
+﻿def click_on_25_camera_panel():
+  button = Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.StackPanel2.Button2
+  aqObject.CheckProperty(button, "IsVisible", cmpEqual, True)
+  button.ClickButton()
+  
