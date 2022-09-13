@@ -35,5 +35,6 @@
 		<child name="read_data_from_storage_ini" key="{9F60E629-3ABF-4A77-A77A-B9BD6731AF1F}" path="read_data_from_storage_ini.py" />
 		<child name="Check_for_positive_and_negitive_cases" key="{2F55E601-582A-48B7-9C5A-5B9C47131F23}" path="Check_for_positive_and_negitive_cases.py" />
 		<child name="read_config_file" key="{2371B2DD-C3AE-40DA-ACCB-E4F8593717FF}" path="read_config_file.py" />
+		<child name="sample_file" key="{74DB6881-4A30-4995-802D-9BC0AD2F5060}" path="sample_file.py" />
 	</children>
 </Root>
