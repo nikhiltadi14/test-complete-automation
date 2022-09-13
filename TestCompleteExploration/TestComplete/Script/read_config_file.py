@@ -1,0 +1,9 @@
+﻿import ConfigParser
+
+
+def main():
+   from os import sys
+   sys.path.insert(0, "C:\\Program Files (x86)\\SmartBear\\TestComplete 15\\x64\\Bin\\Extensions\\Python\\Python38\\Lib\\site-packages")
+   config = ConfigParser.RawConfigParser()
+   config.read('ConfigFile.properties')
+   Log.Message(config.get('DatabaseSection', 'database.dbname'))

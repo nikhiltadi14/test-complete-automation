@@ -1,0 +1,15 @@
+﻿import configparser
+  
+''''
+def main():
+   config =configparser.ConfigParser()
+   config.sections()
+
+   config.read('config_properties')
+   Log.Message(config.section())
+'''
+def main():
+    list = []
+    element = "apple"
+    list.append(element)
+    Log.Message(list[0])

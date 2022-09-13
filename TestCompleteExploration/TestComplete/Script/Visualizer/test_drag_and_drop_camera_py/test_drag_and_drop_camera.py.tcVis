@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8B751315-6AC3-4542-A848-A76415904154}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="19" kind="0" dateTime="44790.2893287037" objectName="NameMapping.Sys.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.Button2" objectLeft="433" objectTop="200" objectRight="584" objectBottom="313" clickPointX="575" clickPointY="293" imageFileName="tcvi129245503165040.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

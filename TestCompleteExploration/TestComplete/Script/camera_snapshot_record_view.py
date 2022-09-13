@@ -1,0 +1,112 @@
+﻿from utility_method import *
+import random
+import smtplib
+from datetime import datetime, timedelta
+
+def login_to_application():
+   VIMonitorPlus = Aliases.VIMonitorPlus.HwndSource_MainWindow
+   loginWindow = VIMonitorPlus.LoginWindow
+   aqObject.CheckProperty(loginWindow.txtUserName, "IsVisible", cmpEqual, True)
+   loginWindow.txtUserName.Clear()
+   username = ReadDataFromINIFIle("Credentials","Username")
+   loginWindow.txtUserName.SetText(username)
+   aqObject.CheckProperty(loginWindow.txtPassword, "IsVisible", cmpEqual, True)
+   loginWindow.txtPassword.Clear()
+   password = ReadDataFromINIFIle("Credentials","Password")
+   loginWindow.txtPassword.SetText(password)
+   VIMonitorPlus.LoginWindow.btnLogIn.ClickButton()
+  
+def click_on_save_snapshot_button():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  hwndSource = VIMonitorPlus.HwndSource_MainWindow
+  
+  #wait for specific window to open
+  # Waits for the window for 10 seconds
+  w = hwndSource.WaitWindow("MainWindow", "Open*", -1, 10000)
+  if w.Exists:
+    w.Activate
+    Log.Picture(w, "Open dialog picture")
+  else:
+    Log.Warning("Incorrect window")
+  hwndSource.MainWindow.tabWorkspaces.btnSnapshot.ClickButton()
+  
+def verify_snapshot_window_is_displayed():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  cameraSnapshot = VIMonitorPlus.HwndSource_CameraSnapshot.CameraSnapshot
+  aqObject.CheckProperty(cameraSnapshot, "WPFControlText", cmpEqual, "Camera Snapshot")
+  
+def click_on_save_as_file_button():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  cameraSnapshot = VIMonitorPlus.HwndSource_CameraSnapshot.CameraSnapshot
+  cameraSnapshot.radioBtnFile.ClickButton()
+
+def verify_browser_file_location_option_is_displayed():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  cameraSnapshot = VIMonitorPlus.HwndSource_CameraSnapshot.CameraSnapshot
+  button = cameraSnapshot.btnBrowse
+  aqObject.CheckProperty(button, "WPFControlText", cmpEqual, "...")
+
+def click_on_browser_file_location():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  cameraSnapshot = VIMonitorPlus.HwndSource_CameraSnapshot.CameraSnapshot
+  button = cameraSnapshot.btnBrowse
+  
+    ## Wait for child
+  p = cameraSnapshot.WaitChild("btnBrowse", 10000)
+  if p.Exists:
+    Log.Message(p.Name)
+  else:
+    Log.Message("Not found")
+  button.ClickButton()
+
+def click_on_file_destination_path():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  dlgSaveAs = VIMonitorPlus.dlgSaveAs
+  progress = dlgSaveAs.WorkerW.ReBarWindow32.AddressBandRoot.progress
+  progress.BreadcrumbParent.toolbarAddressDesktop.Click(190, 22)
+
+def enter_file_destination_path():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  dlgSaveAs = VIMonitorPlus.dlgSaveAs
+  progress = dlgSaveAs.WorkerW.ReBarWindow32.AddressBandRoot.progress
+  comboBox = progress.comboBox
+  file_path = ReadDataFromINIFIle("File","Path")
+  comboBox.SetText("C:\\Users\\LENOVO\\Pictures\\Sample")
+  comboBox.ComboBox.Edit.Keys("[Enter]")
+  
+def generate_random_file_name():
+  file_name = 'Screen Shot '+str(random.randint(0,5000))
+  return file_name
+
+def enter_file_name(file_name):
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  cameraSnapshot = VIMonitorPlus.HwndSource_CameraSnapshot.CameraSnapshot
+  dlgSaveAs = VIMonitorPlus.dlgSaveAs
+  progress = dlgSaveAs.WorkerW.ReBarWindow32.AddressBandRoot.progress
+  HWNDView = dlgSaveAs.DUIViewWndClassName.Explorer_Pane
+  comboBox = progress.comboBox
+  comboBox = HWNDView.FloatNotifySink2.ComboBox
+  comboBox.Edit.Click(63, 9)
+  Log.Message(file_name)
+  comboBox.SetText(str(file_name))
+
+def click_on_save():
+  VIMonitorPlus = Aliases.VIMonitorPlus2
+  cameraSnapshot = VIMonitorPlus.HwndSource_CameraSnapshot.CameraSnapshot
+  dlgSaveAs = VIMonitorPlus.dlgSaveAs
+  dlgSaveAs.btnSave.ClickButton()
+  cameraSnapshot.buttonOK.ClickButton()
+
+def verify_that_the_file_got_saved():
+  explorer = Aliases.explorer
+  explorer.wndShell_TrayWnd.DesktopWindowXamlSource.Click(955, 30)
+  wndCabinetWClass = explorer.wndDesktop
+  progress = wndCabinetWClass.WorkerW.ReBarWindow32.AddressBandRoot.progress
+  comboBox = progress.comboBox
+  progress.BreadcrumbParent.toolbarAddressQuickAccess.Click(325, 13)
+  comboBox.SetText("C:\\Users\\LENOVO\\Pictures\\Sample")
+  comboBox.ComboBox.Edit.Keys("[Enter]")
+  Log.Message(Aliases.explorer.wndDesktop.Desktop.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.ChildCount)
+  aqObject.CheckProperty(wndCabinetWClass.Desktop.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Second, "Value", cmpEqual, "Second")  
+  wndCabinetWClass.Close()
+  

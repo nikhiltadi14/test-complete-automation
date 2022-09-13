@@ -1,0 +1,19 @@
+﻿from drag_and_drop_camera_page import *
+from verify_exp_section_page import *
+
+def TestExportMultiplex():
+  launch_application()
+  verify_signin_page_is_displayed()
+  login_into_application(Project.Variables.Username,Project.Variables.Password)
+  verify_user_successfully_logged_into_account()
+  wait_for_the_cameras_to_load()
+  verify_servers_section_are_displayed()
+  click_on_camera_section()
+  verify_camera_section_is_displayed()
+  click_on_view_section()
+  verify_view_section_is_displayed()
+  click_on_map_section()
+  verify_map_section_is_displayed()
+  logout_from_application()
+  close_application()
+  

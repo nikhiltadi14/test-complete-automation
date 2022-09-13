@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44809.8042423495"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5E86CEC9-8A21-4567-98D8-C8B6558822AB}"/>
+				<Prp name="nameofroot" type="S" value="TestCompleteExploration"/>
+				<Prp name="relpath" type="S" value="05-09-2022_19_18_06_539\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44809.8168835069"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2268230E-9134-413C-A6A7-1049DB0DA83F}"/>
+				<Prp name="nameofroot" type="S" value="TestCompleteExploration"/>
+				<Prp name="relpath" type="S" value="05-09-2022_19_36_18_735\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44812.5418179861"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{06B81D23-347D-4C0C-A5EA-7A5D5753B6D4}"/>
+				<Prp name="nameofroot" type="S" value="TestCompleteExploration"/>
+				<Prp name="relpath" type="S" value="08-09-2022_13_00_13_74\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
