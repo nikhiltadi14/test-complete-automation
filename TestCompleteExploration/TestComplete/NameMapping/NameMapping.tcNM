@@ -925,6 +925,7 @@
 											<Property Name="ClrFullClassName">
 												<Value Value="VideoInsight.CoreUI.Windows.SecuritySetup" />
 											</Property>
+											<RequiredChildren Child0="TabControl" />
 										</Properties>
 										<Children>
 											<Child Name="treeUsers" Key="{C23F36BA-8366-45EA-8934-675A32C493C1}" ExtendedFind="True">

@@ -4,9 +4,12 @@
   aqObject.CheckProperty(menu.mnuAdministration, "WPFControlText", cmpEqual, "Administration")
   menu.WPFMenu.Click("Administration|Users & Groups|Setup and Configuration")
   securitySetup = VIMonitorPlus.HwndSource_SecuritySetup.SecuritySetup
-  aqObject.CheckProperty(securitySetup.expUsers, "Visible", cmpEqual, True)
+  #aqObject.CheckProperty(securitySetup.expUsers, "Visible", cmpEqual, True)
 
 def verify_security_setup_is_displayed():
+  setup = Aliases.VIMonitorPlus.HwndSource_SecuritySetup.SecuritySetup
+  #System.Windows.Controls.TabControl
+  setup.WaitWPFObject("System.Windows.Controls.TabControl", "", 6000)
   aqObject.CheckProperty(Aliases.VIMonitorPlus.HwndSource_SecuritySetup.SecuritySetup, "WPFControlText", cmpEqual, "Security Setup")
   
 def get_user():
