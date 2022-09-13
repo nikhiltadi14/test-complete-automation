@@ -10,7 +10,7 @@
 def verify_signin_page_is_displayed():
   VIMonitorPlus = Aliases.VIMonitorPlus.HwndSource_MainWindow
   loginWindow = VIMonitorPlus.LoginWindow
-  loginWindow.WaitWPFObject("LoginWindow","",10000)
+  loginWindow.WaitWPFObject("VIMonitorPlus.LoginWindow","",10000)
   aqObject.CheckProperty(loginWindow.btnLogIn, "WPFControlText", cmpEqual, "Log In")
   
 def login_into_application(username,password):
@@ -26,14 +26,14 @@ def login_into_application(username,password):
 
 def verify_user_successfully_logged_into_account():  
   hwndsource = Aliases.VIMonitorPlus.HwndSource_MainWindow
-  hwndsource.WaitWPFObject("MainWindow", "", 6000)
+  hwndsource.WaitWPFObject("HwndSource", "VI MonitorPlus", 6000)
   aqObject.CheckProperty(hwndsource.MainWindow, "WPFControlText", cmpEqual, "VI MonitorPlus")
     
 def wait_for_the_cameras_to_load():
   MainWindow = Aliases.VIMonitorPlus2.HwndSource_MainWindow.MainWindow
-  TreeViewItem = MainWindow.treeServers.TreeviewitemDemoipCom
-  aqObject.CheckProperty(TreeViewItem.TextblockDemoipCom, "WPFControlText", cmpEqual, "demoip.com")
-  TreeViewItem.WaitWPFObject("TreeviewitemDemoipCom", "", 40000)
+  treeViewItem = MainWindow.treeServers.TreeviewitemDemoipCom
+  aqObject.CheckProperty(treeViewItem.TextblockDemoipCom, "WPFControlText", cmpEqual, "demoip.com")
+  treeViewItem.WaitWPFObject("TreeViewItem", "",1 ,80000)
   
 def verify_2_camera_panel_is_displayed():
   Mainwindow = Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces

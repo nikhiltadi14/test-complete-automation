@@ -1,7 +1,6 @@
 ﻿from drag_and_drop_camera_page import *
 from delete_user_page import *
 
-@low-priority
 def TestDeleteUser():
   username = "suresh712"
   
