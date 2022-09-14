@@ -1,9 +1,6 @@
 ﻿from drag_and_drop_camera_page import *
 from export_video_page import *
 from utility_method import *
-import random
-import smtplib
-from datetime import datetime, timedelta
 
 def TestExportMultiplex():
   launch_application()
@@ -25,6 +22,7 @@ def TestExportMultiplex():
     Log.Checkpoint("Property is present")
   else:
     Log.Error("The OK button didn't become enabled within 15 seconds.")
+    
   aqObject.CheckProperty(hwndsource.MainWindow, "WPFControlText", cmpEqual, "VI MonitorPlus")
   
   #Check object state
@@ -32,11 +30,19 @@ def TestExportMultiplex():
     Log.Checkpoint("Visible on screen")
   else:
     Log.Error("The Notepad window is invisible")
+    
+  Log.Message(hwndsource.visible)
   
-  ''''
-  MainWindow = Aliases.VIMonitorPlus2.HwndSource_MainWindow.MainWindow
-  treeViewItem = MainWindow.treeServers.TreeviewitemDemoipCom
-  aqObject.CheckProperty(treeViewItem.TextblockDemoipCom, "WPFControlText", cmpEqual, "demoip.com")
-  treeViewItem.WaitWPFObject("TreeViewItem", "",1 ,80000)
-  '''
+  if(hwndsource.WaitChild("MainWindow", 5000) == True):
+     if(hwndsource.MainWindow.VisibleOnScreen):
+         Log.Message('Working')
+  else: 
+     Log.Warning('Not Working')
+    
+    
+  if (hwndsource.WaitAliasChild("MainWindow", 10000).Enabled): 
+    Log.Message("The Font window has appeared")
+  else:
+    Log.Error("The Font window has not appeared.")
+    
   close_application()
