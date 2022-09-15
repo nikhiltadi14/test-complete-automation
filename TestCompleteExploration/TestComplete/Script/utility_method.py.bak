@@ -38,7 +38,7 @@ def ReadDataFromJson(parameter1,parameter2):
    return result  
    
 def ReadDataFromINIFIle(section,option):
-    ini = Storages.INI("C:\Users\LENOVO\Desktop\Ipro\TestData.ini")
+    ini = Storages.INI("C:\\Users\\LENOVO\\Desktop\\Ipro\\TestData.ini")
   
     # Reads the Type value from the Settings section 
     value = ini.GetSubSection(section).GetOption(option,"")
@@ -90,3 +90,11 @@ def DataDriven():
     Log.Message(DDT.CurrentDriver.Value[1]) 
     DDT.CurrentDriver.Next()
   DDT.CloseDriver(DDT.CurrentDriver.Name)
+  
+def wait_until_object_is_visible(parent_name,child_name,duration):
+  try:
+    if (parent_name.WaitAliasChild(child_name, duration).Visible,error_message): 
+       Log.Message("The Wpf element is visible on screen")
+  except Exception as e:
+       Log.Message()
+   

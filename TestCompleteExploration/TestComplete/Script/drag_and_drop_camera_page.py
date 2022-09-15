@@ -1,8 +1,9 @@
-﻿def launch_application():
+﻿from utility_method import *
+
+def launch_application():
   if Sys.waitProcess("VIMonitorPlus", 5000).Exists:
      Sys.waitProcess("VIMonitorPlus", 5000).Terminate()
      TestedApps.VIMonitorPlus.Run(1, True)
-
   else:
       Log.Message('Launching Application')
       TestedApps.VIMonitorPlus.Run(1, True)
@@ -10,12 +11,13 @@
 def verify_signin_page_is_displayed():
   VIMonitorPlus = Aliases.VIMonitorPlus.HwndSource_MainWindow
   loginWindow = VIMonitorPlus.LoginWindow
-  loginWindow.WaitWPFObject("VIMonitorPlus.LoginWindow","",10000)
+  wait_until_object_is_visible(loginWindow,"btnLogIn",10000,"The Wpf element is not visible on screen")
   aqObject.CheckProperty(loginWindow.btnLogIn, "WPFControlText", cmpEqual, "Log In")
   
 def login_into_application(username,password):
   VIMonitorPlus = Aliases.VIMonitorPlus.HwndSource_MainWindow
   loginWindow = VIMonitorPlus.LoginWindow
+  wait_until_object_is_visible(loginWindow,"txtUserNames",10000,"The Wpf element is not visible on screen")
   aqObject.CheckProperty(loginWindow.txtUserName, "IsVisible", cmpEqual, True)
   loginWindow.txtUserName.Clear()
   loginWindow.txtUserName.SetText(username)
@@ -27,6 +29,7 @@ def login_into_application(username,password):
 def verify_user_successfully_logged_into_account():  
   hwndsource = Aliases.VIMonitorPlus.HwndSource_MainWindow
   hwndsource.WaitWPFObject("HwndSource", "VI MonitorPlus", 6000)
+  wait_until_object_is_visible(hwndsource,"MainWindow",10000,"The Wpf element is not visible on screen")
   aqObject.CheckProperty(hwndsource.MainWindow, "WPFControlText", cmpEqual, "VI MonitorPlus")
     
 def wait_for_the_cameras_to_load():
