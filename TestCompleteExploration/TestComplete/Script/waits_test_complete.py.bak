@@ -4,14 +4,7 @@ from utility_method import *
 
 def TestExportMultiplex():
   launch_application()
-  
-  # signin_page_is_displayed
-  VIMonitorPlus = Aliases.VIMonitorPlus.HwndSource_MainWindow
-  loginWindow = VIMonitorPlus.LoginWindow
-  loginWindow.WaitWPFObject("VIMonitorPlus.LoginWindow","",10000)
-  aqObject.CheckProperty(loginWindow.btnLogIn, "WPFControlText", cmpEqual, "Log In")
-  
-  
+  verify_signin_page_is_displayed()
   login_into_application(Project.Variables.Username,Project.Variables.Password)
   
   #successfully_logged_into_account 
@@ -38,18 +31,22 @@ def TestExportMultiplex():
          Log.Message('Working')
   else: 
      Log.Warning('Not Working')
+  
+  VIMonitorPlus = Aliases.VIMonitorPlus
+  menu = VIMonitorPlus.HwndSource_MainWindow.MainWindow
     
-    
-  if (hwndsource.WaitAliasChild("MainWindow", 10000).Enabled): 
+  if (menu.WaitAliasChild("mnuMain", 10000).Visible): 
     Log.Message("The Font window has appeared")
   else:
     Log.Error("The Font window has not appeared.")
-    
   
   ''''
-  MainWindow = Aliases.VIMonitorPlus2.HwndSource_MainWindow.MainWindow
-  treeViewItem = MainWindow.treeServers.TreeviewitemDemoipCom
-  aqObject.CheckProperty(treeViewItem.TextblockDemoipCom, "WPFControlText", cmpEqual, "demoip.com")
-  treeViewItem.WaitWPFObject("TreeViewItem", "",1 ,80000)
-  '''
+  security_setup = Aliases.VIMonitorPlus.HwndSource_SecuritySetup
+  if (security_setup.WaitAliasChild("SecuritySetup", 10000).Visible): 
+    Log.Message("The Font window has appeared")
+  else:
+    Log.Error("The Font window has not appeared.")
+    '''
+  wait_until_object_is_visible(menu,mnuMain,10000)
+    
   close_application()

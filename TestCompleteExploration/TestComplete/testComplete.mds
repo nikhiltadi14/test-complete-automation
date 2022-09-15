@@ -9,20 +9,25 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{2F6965A5-CE80-43ED-BD5F-E84ABA06644E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem2" key="{9996609E-5E7D-4962-9CA4-44DFFB30D793}" group="False" parallel="False" enabled="True" testMoniker="{08C34661-7951-459B-A0AB-5D436545A4B5}Main" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Group1" key="{EFCEDE94-1A06-4D98-88AA-94BA4EE63693}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem1" key="{863D4CBF-6833-4FCF-84E2-F5E04BC22044}" group="False" parallel="False" enabled="True" testMoniker="{4851761E-794D-4015-B7B4-829C08A05CFA}ReadJson" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem3" key="{38D964A6-A932-436F-8F96-5E682CB5CAAA}" group="False" parallel="False" enabled="True" testMoniker="{9F60E629-3ABF-4A77-A77A-B9BD6731AF1F}StorageIni" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
+				<children>
+					<testItem name="TestLayoutType" key="{CA8A4B9A-0430-4406-A226-5AC96318CF6D}" group="False" parallel="False" enabled="True" testMoniker="{D066ACD1-10F5-48F6-B2C3-237791F904DB}TestLayoutType" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="TestDeleteUser" key="{32F8ED97-A76B-43D5-9B3A-932F983A15F9}" group="False" parallel="False" enabled="True" testMoniker="{C4A6B35E-ACF8-4514-8DE5-3F15910F97E1}TestDeleteUser" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="TestCameraCount" key="{31F6D42C-092B-495A-8A89-9AB91364C22A}" group="False" parallel="False" enabled="True" testMoniker="{578788B7-8989-44D1-A42F-3538D040EA33}TestCameraCount" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>

@@ -90,3 +90,11 @@ def DataDriven():
     Log.Message(DDT.CurrentDriver.Value[1]) 
     DDT.CurrentDriver.Next()
   DDT.CloseDriver(DDT.CurrentDriver.Name)
+  
+def wait_until_object_is_visible(parent_name,child_name,duration,error_message):
+  try:
+    if (parent_name.WaitAliasChild(child_name, duration).Visible,error_message): 
+       Log.Message("The Wpf element is visible on screen")
+  except Exception as e:
+       Log.Message(error_message)
+   

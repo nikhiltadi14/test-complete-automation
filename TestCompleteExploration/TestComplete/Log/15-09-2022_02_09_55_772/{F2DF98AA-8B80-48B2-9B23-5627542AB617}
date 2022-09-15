@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="TestCameraCount [Script\test_get_blank_camera_count - TestCameraCount]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{626D7A02-5F8B-4CE1-B6C5-5C6461CC3AD9}"/>
+				<Prp name="start time" type="D" value="44819.0903721412"/>
+				<Prp name="end time" type="D" value="44819.0905010532"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="TestLayoutType [Script\test_verify_layout_type - TestLayoutType]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{72A63656-1C68-4D51-9E8F-2C76C56B8207}"/>
+				<Prp name="start time" type="D" value="44819.0902289583"/>
+				<Prp name="end time" type="D" value="44819.0903123148"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="TestDeleteUser [Script\test_delete_user - TestDeleteUser]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{1C6F3560-F76C-478F-A9B7-0185323084B3}"/>
+				<Prp name="start time" type="D" value="44819.0903123727"/>
+				<Prp name="end time" type="D" value="44819.0903720255"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

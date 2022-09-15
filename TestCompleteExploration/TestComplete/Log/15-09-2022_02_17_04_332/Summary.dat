@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="11638"/>
+						<Prp name="duration" type="I" value="11638"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEIANgA1AEYANAA3ADQALQBFADAAOAA0AC0ANAAzADcAMwAtADgAQgA4ADIALQAwADEAMQAzADMAQwBCAEUARABEADIARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="TestCameraCount"/>
+						<Prp name="starttime" type="D" value="44819.0953416667"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="7580"/>
+						<Prp name="duration" type="I" value="7580"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBAEUAMQA1ADYANQA4AEYALQAyAEIAMgA0AC0ANAA0ADIAMAAtADkAQwBEADEALQA1ADMAOAA1ADkAMgAyADAAMwAxAEIARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="TestLayoutType"/>
+						<Prp name="starttime" type="D" value="44819.0951910069"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="5424"/>
+						<Prp name="duration" type="I" value="5424"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEUARgA5AEQANgBCADIALQBCAEMAMQBCAC0ANABDADcANQAtAEIAMAAzAEIALQBCADMANQAyADgAQgA0AEYANQBBADUAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="TestDeleteUser"/>
+						<Prp name="starttime" type="D" value="44819.095278831"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="24642"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TestComplete"/>
+				<Prp name="starttime" type="D" value="44819.0951910069"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="LENOVO"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{1DC308CC-E89F-4D9B-B984-E3ED32128109}"/>
+		<Prp name="testname" type="S" value="TestComplete"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="TestCompleteExploration"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="stop" type="D" value="44819.0954802199"/>
+		<Prp name="starttime" type="D" value="44819.0951891204"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="DESKTOP-UIN0C5D"/>
+	</Node>
+</Nodes>

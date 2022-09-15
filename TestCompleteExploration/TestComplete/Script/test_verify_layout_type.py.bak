@@ -10,8 +10,8 @@ def TestLayoutType():
   verify_user_successfully_logged_into_account()
   #wait_for_the_cameras_to_load()
   #select_stack_pane_camera_panel()
-  sub_string = select_stack_pane_camera_panel_v2()
-  verify_layout_count_matches_with_blank_camera_count(sub_string)
+  #sub_string = select_stack_pane_camera_panel_v2()
+  #verify_layout_count_matches_with_blank_camera_count(sub_string)
   
   
   ''''
