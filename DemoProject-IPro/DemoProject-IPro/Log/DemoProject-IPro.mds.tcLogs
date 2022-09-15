@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44734.4228158218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8282E32C-3524-47E2-84BE-DABBC5E9F8F1}"/>
+				<Prp name="nameofroot" type="S" value="DemoProject-IPro"/>
+				<Prp name="relpath" type="S" value="22-06-2022_10_08_51_287\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44735.2295773148"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EA7354D1-DA2B-4E9F-8B9C-1B99AD13B488}"/>
+				<Prp name="nameofroot" type="S" value="DemoProject-IPro"/>
+				<Prp name="relpath" type="S" value="23-06-2022_05_30_35_480\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44735.2700505787"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8A4E9AE1-0ACA-4AAA-BCD4-6D169F07FF99}"/>
+				<Prp name="nameofroot" type="S" value="DemoProject-IPro"/>
+				<Prp name="relpath" type="S" value="23-06-2022_06_28_52_370\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44735.4216960301"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{206B38DD-07D0-482A-80FE-FF3E31BF5854}"/>
+				<Prp name="nameofroot" type="S" value="DemoProject-IPro"/>
+				<Prp name="relpath" type="S" value="23-06-2022_10_07_14_538\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44817.3440676389"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{56F711C8-EB44-4C5F-B89A-B1CB329B1737}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Export_Multiplex_Clipping\ExportMultiplexClipping]"/>
+				<Prp name="relpath" type="S" value="13-09-2022_08_15_27_444\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44817.3450820602"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F474A161-D28A-4811-95FB-C0E16DC468A4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Export_Multiplex_Clipping\ExportMultiplexClipping]"/>
+				<Prp name="relpath" type="S" value="13-09-2022_08_16_55_90\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44817.345748206"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2C36C5A7-5CFF-4751-986D-ED4BC1E65FB1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Export_Multiplex_Clipping\ExportMultiplexClipping]"/>
+				<Prp name="relpath" type="S" value="13-09-2022_08_17_52_645\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44817.3472307639"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{71F33F6D-7DCA-4570-873E-67AFF493C6C8}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Export_Multiplex_Clipping\ExportMultiplexClipping]"/>
+				<Prp name="relpath" type="S" value="13-09-2022_08_20_00_738\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

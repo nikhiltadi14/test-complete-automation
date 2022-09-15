@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The property value &quot;49.82&quot; is less than or equal to &quot;50&quot;."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="49.82is not greater than expected time50"/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADQAOABFAEMAOQBCADcALQA4AEMAQQBGAC0ANAAzAEUARAAtADkARgBBAEQALQA2ADUANQBGADAAQwA0ADgANwBFADAARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44734.4238960995"/>
+						<Prp name="name" type="S" value="ExportMultiplexClipping"/>
+						<Prp name="duration" type="I" value="135705"/>
+						<Prp name="durationwithoutchildren" type="I" value="135705"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADUARgBEADMANQAyADQALQA5AEUAOAA4AC0ANABDADAAMQAtADkARgA4ADYALQA3AEUAMAA0ADkAMwA3AEMARgAyADMAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44734.4228188194"/>
+						<Prp name="name" type="S" value="CreateUser"/>
+						<Prp name="duration" type="I" value="93068"/>
+						<Prp name="durationwithoutchildren" type="I" value="93068"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="name" type="S" value="DemoProject-IPro"/>
+				<Prp name="starttime" type="D" value="44734.4228188194"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="228773"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{6024A1AB-11A7-45C3-B2B1-E7E38D771BBD}"/>
+		<Prp name="host" type="S" value="LAPTOP-OF17E8TK"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="DemoProject-IPro"/>
+		<Prp name="stop" type="D" value="44734.4254679977"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="testname" type="S" value="DemoProject-IPro"/>
+		<Prp name="starttime" type="D" value="44734.42281875"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="Vikas"/>
+	</Node>
+</Nodes>

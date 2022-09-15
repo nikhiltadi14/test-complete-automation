@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="message" type="S" value="ImportError:..."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Python runtime error.&#xA;&#xA;ImportError: &#xA;&#xA;IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!&#xA;&#xA;Importing the numpy C-extensions failed. This error can happen for&#xA;many reasons, often due to issues with your setup or how NumPy was&#xA;installed.&#xA;&#xA;We have compiled some common reasons and troubleshooting tips at:&#xA;&#xA;    https://numpy.org/devdocs/user/troubleshooting-importerror.html&#xA;&#xA;Please note and check the following:&#xA;&#xA;  * The Python version is: Python3.8 from &quot;C:\Program Files (x86)\SmartBear\TestComplete 15\x64\Bin\TestComplete.exe&quot;&#xA;  * The NumPy version is: &quot;1.22.4&quot;&#xA;&#xA;and make sure that they are the versions you expect.&#xA;Please carefully study the documentation linked above for further help.&#xA;&#xA;Original error was: No module named 'numpy.core._multiarray_umath'&#xA;&#xA;&#xA;Error location:&#xA;Unit: &quot;DemoProject-IPro\DemoProject-IPro\Script\Export_Multiplex_Clipping&quot;&#xA;Line: 6 Column: 1."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44727.3521022222"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44727.3521044792"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{58F10376-AB6F-4526-AACF-1AD4C4978946}"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

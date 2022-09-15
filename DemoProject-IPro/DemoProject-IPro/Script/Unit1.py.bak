@@ -1,0 +1,11 @@
+﻿def Test1():
+  TestedApps.VIMonitorPlus.Run(1, True)
+  loginWindow = Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow
+  textBox = loginWindow.txtUserName
+  textBox.SetText("Vikas")
+  passwordBox = loginWindow.txtPassword
+  passwordBox.SetText(Project.Variables.Password)
+  loginWindow.cboLoginMode.ClickItem("Primary Server")
+  loginWindow.btnLogIn.ClickButton()
+  loginWindow.PART_AffirmativeButton.ClickButton()
+  loginWindow.CloseButton.Click()

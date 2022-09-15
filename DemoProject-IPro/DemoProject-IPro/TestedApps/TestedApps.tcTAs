@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{EFDC0532-6B10-4C2B-9EC9-EEB7C4C97173}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{4BBFD06E-6F17-4A80-8546-64CD4D3A70D2}">
+			<config nodeName="VIMonitorPlus" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="D:\projects\I-Pro" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="D:\projects\I-Pro" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="D:\projects\I-Pro" />
+					<param name="Simple" fileName="VIMonitorPlus.exe" filePath="C:\Program Files\VI Enterprise\VI MonitorPlus\" parameters="" workFolder="D:\projects\I-Pro" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>
