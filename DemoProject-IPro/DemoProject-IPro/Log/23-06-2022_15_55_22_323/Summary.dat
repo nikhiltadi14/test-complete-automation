@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The test item execution has been stopped."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'ExportMultiplexClipping' test item was being executed."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="OSError: MoviePy error: the file C:\Users\Vikas\Documents\TestComplete 15 Projects\DemoProject-IPro\DemoProject-IPro\ExportedVideos\V3891.avi could not be found!..."/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="78964"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADcANQAxAEEANwA5AEEALQAxADYAQwA0AC0ANABEAEQAQgAtADkAMQBBADcALQAwADAAQQBGADUANwA1ADUAMgAyADgANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="ExportMultiplexClipping"/>
+						<Prp name="starttime" type="D" value="44735.6645451736"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="78964"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="94138"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEUANgBBADkAOQBEADUALQA3ADgANwAwAC0ANABGAEQAMQAtAEEAQgA2ADkALQAzADcAMwBDADYAMgBBADIAQQAwADIARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="CreateUser"/>
+						<Prp name="starttime" type="D" value="44735.6634554745"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="94138"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="name" type="S" value="DemoProject-IPro"/>
+				<Prp name="starttime" type="D" value="44735.6634554745"/>
+				<Prp name="duration" type="I" value="173102"/>
+			</Node>
+		</Node>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44735.6654601157"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="DemoProject-IPro"/>
+		<Prp name="key" type="S" value="{5A273351-64D6-4294-A314-E6C59AFC2DCA}"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="user" type="S" value="Vikas"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="44735.6634551852"/>
+		<Prp name="host" type="S" value="LAPTOP-OF17E8TK"/>
+		<Prp name="name" type="S" value="DemoProject-IPro"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

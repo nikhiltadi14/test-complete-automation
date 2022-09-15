@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{4248C4A6-4287-4327-892E-14809E5B4BED}">
+	<children>
+		<child name="DemoProject-IPro" key="{265D72DF-DBF7-4212-8FBD-5FA610207C6B}" path="DemoProject-IPro\DemoProject-IPro.mds" />
+	</children>
+	<testItems key="{6813DA94-2A21-4859-8A69-B70FB679ACA3}">
+		<children>
+			<testItem key="{265D72DF-DBF7-4212-8FBD-5FA610207C6B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{BAA38DA9-717F-4E44-8782-E9431185F156}" />
+	<analysis key="{EEC8C2B6-F75E-49C7-90BF-CD1E3925F919}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

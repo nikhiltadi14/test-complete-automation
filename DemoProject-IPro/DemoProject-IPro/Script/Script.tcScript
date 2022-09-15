@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Page_Objects">
+			<child name="Login_Window" key="{A89921B6-9B54-421B-9353-3C8976C42001}" path="Login_Window.py" />
+			<child name="Home_Window" key="{9931F175-7254-4BAE-B086-910D5BE8F6A4}" path="Home_Window.py" />
+			<child name="SetupAndConfiguration_Popup" key="{2B757C10-1CCB-402B-9014-4E165C617FA1}" path="SetupAndConfiguration_Popup.py" />
+			<child name="Workspace_Window" key="{4204E93B-2250-48AB-BD22-6C1CBD894D2F}" path="Workspace_Window.py" />
+			<child name="ExportVideoClip_Window" key="{C2E081F7-85D2-4FA6-B9DD-4B95820D4E35}" path="ExportVideoClip_Window.py" />
+			<child name="Utility_Methods" key="{E3E979A7-2BEA-4758-B726-BA126121660C}" path="Utility_Methods.py" />
+		</folder>
+		<folder name="Older_Drafts">
+			<child name="Create_User_FirstDraft" key="{42BB6FC6-97CF-4D1B-98F8-A0456FEF232A}" path="Create_User_FirstDraft.py" />
+			<child name="Export_Multiplex_Clipping_FirstDraft" key="{58F10376-AB6F-4526-AACF-1AD4C4978946}" path="Export_Multiplex_Clipping_FirstDraft.py" />
+			<child name="Login_Test" key="{22E7CA0D-7348-4F5B-B2D7-3F26FEDA316C}" path="Login_Test.py" />
+		</folder>
+		<child name="Create_User" key="{4BDDFA2C-B5FD-47D3-B26C-CA9AC1B0D362}" path="Create_User.py" />
+		<child name="Export_Multiplex_Clipping" key="{AC832607-2D30-4BBA-9811-9CE73C257DFF}" path="Export_Multiplex_Clipping.py" />
+	</children>
+</Root>

@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.btnLogIn"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.5011111111"/>
+					<Prp name="object top" type="I" value="464"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="436"/>
+					<Prp name="image file name" type="S" value="tcvi2720663901884434.png"/>
+					<Prp name="click point y" type="I" value="488"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="502"/>
+					<Prp name="object left" type="I" value="275"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="601"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.btnLogIn"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6761170949"/>
+					<Prp name="object top" type="I" value="464"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="438"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="click point y" type="I" value="483"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="502"/>
+					<Prp name="object left" type="I" value="275"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="601"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.btnLogIn&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;LoginWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;LoginCanvas&quot;).WPFObject(&quot;LoginPanel&quot;).WPFObject(&quot;btnLogIn&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9052851389"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="29"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.btnServerAdd"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6758404398"/>
+					<Prp name="object top" type="I" value="368"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="803"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="click point y" type="I" value="383"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="399"/>
+					<Prp name="object left" type="I" value="788"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="819"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.btnServerAdd&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;LoginWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;LoginCanvas&quot;).WPFObject(&quot;LoginPanel&quot;).WPFObject(&quot;ServerOrderButtons&quot;).WPFObject(&quot;btnServerAdd&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9050146181"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="20"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="message" type="S" value="The &quot;HwndSource_LoginWindow&quot; object was replaced with a similar object."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;VIMonitorPlus.&amp;#8203;&lt;a href=&quot;namemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{10639529-563B-452E-B59C-CC4FBACD2019}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;HwndSource_LoginWindow&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;RootVisual.ClrClassName&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAcAcGljZmlsZQEAKgB7N0UwQTUyRTgtOTM5My00RkFCLUFBQTUtQjQ0&#xA;Qzg5ODZBMkUxfS5wbmcEAHR5cGUBAAsAUmVjb2duaXRpb24JAHByb3Bjb3VudAAAAwABAGIAAMiz&#xA;AAIAbm0BACQAMTA2Mzk1Mjl4NTYzQng0NTJFeEI1OUN4Q0M0RkJBQ0QyMDE5BgBjb25maWcBABUA&#xA;RGVmYXVsdCBDb25maWd1cmF0aW9uAQBsAAAAAAEAcgAAzasABABtb2RlAAAAAAcAcHJvamVjdAEA&#xA;JAAxQjM3OTE3Nng2REVBeDQ5RTh4QTU1NHhCRjc4NEFBNjlBQ0MBAHQAAAAABAAGAHZhbHVlcwMA&#xA;AQAxAQA5AEA1NjAwNDkwMDIwMDA0RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3MjAwNTAwMDZDMDA3&#xA;NTAwNzMwMAEAMgEAw5UAQDU3MDA1MDAwNDYwMDRGMDA2MjAwNkEwMDY1MDA2MzAwNzQwMDI4MDAy&#xA;MjAwNDgwMDc3MDA2RTAwNjQwMDUzMDA2RjAwNzUwMDcyMDA2MzAwNjUwMDNBMDAyMDAwNEQwMDYx&#xA;MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAwNzcwMDIyMDAyQzAwMjAwMDIyMDA1NjAwNDkw&#xA;MDIwMDA0RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3MjAwNTAwMDZDMDA3NTAwNzMwMDIyMDAyOTAw&#xA;AQAwAQAtAEA0QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAwNzcwMAAACwBm&#xA;b3VuZHZhbHVlcwMAAQAxAQA5AEA1NjAwNDkwMDIwMDA0RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3&#xA;MjAwNTAwMDZDMDA3NTAwNzMwMAEAMgEAw5kAQDU3MDA1MDAwNDYwMDRGMDA2MjAwNkEwMDY1MDA2&#xA;MzAwNzQwMDI4MDAyMjAwNDgwMDc3MDA2RTAwNjQwMDUzMDA2RjAwNzUwMDcyMDA2MzAwNjUwMDNB&#xA;MDAyMDAwNEMwMDZGMDA2NzAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAwNkYwMDc3MDAyMjAwMkMw&#xA;MDIwMDAyMjAwNTYwMDQ5MDAyMDAwNEQwMDZGMDA2RTAwNjkwMDc0MDA2RjAwNzIwMDUwMDA2QzAw&#xA;NzUwMDczMDAyMjAwMjkwMAEAMAEALQBANEMwMDZGMDA2NzAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2&#xA;NDAwNkYwMDc3MDAAAAcAbWF0Y2hlZAMAAQAxAADvv7/nv78BADIAAAEAAQAwAADvv7/nv78AAAUA&#xA;bmFtZXMDAAEAMQEACgBXbmRDYXB0aW9uAQAyAQAEAE5hbWUBADABABcAUm9vdFZpc3VhbC5DbHJD&#xA;bGFzc05hbWUAAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9047522106"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="13"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.txtUserName"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.5000115741"/>
+					<Prp name="object top" type="I" value="214"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-524"/>
+					<Prp name="image file name" type="S" value="tcvi271971875188444.png"/>
+					<Prp name="click point y" type="I" value="-230"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="object left" type="I" value="86"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="306"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.txtUserName"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6753339005"/>
+					<Prp name="object top" type="I" value="214"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="object left" type="I" value="86"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="306"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The text 'Administrator' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.txtUserName&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;LoginWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;LoginCanvas&quot;).WPFObject(&quot;LoginPanel&quot;).WPFObject(&quot;LeftSideControls&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;txtUserName&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9045011343"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="message" type="S" value="The &quot;HwndSource_LoginWindow&quot; object was replaced with a similar object."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;VIMonitorPlus.&amp;#8203;&lt;a href=&quot;namemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{10639529-563B-452E-B59C-CC4FBACD2019}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;HwndSource_LoginWindow&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;RootVisual.ClrClassName&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAEAYgAAyLMAAQBsAAAAAAQAdHlwZQEACwBSZWNvZ25pdGlvbgEAcgAA&#xA;zasAAQB0AAAAAAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgQAbW9kZQAAAAAHAHBp&#xA;Y2ZpbGUBACoAezI0NzBENjE0LUIzMTktNDUyMi1CRjRGLTMyRTI0ODVFODBFQ30ucG5nAgBubQEA&#xA;JAAxMDYzOTUyOXg1NjNCeDQ1MkV4QjU5Q3hDQzRGQkFDRDIwMTkHAHByb2plY3QBACQAMUIzNzkx&#xA;NzZ4NkRFQXg0OUU4eEE1NTR4QkY3ODRBQTY5QUNDCQBwcm9wY291bnQAAAMABAAHAG1hdGNoZWQD&#xA;AAEAMQAA77+/57+/AQAyAAABAAEAMAAA77+/57+/AAALAGZvdW5kdmFsdWVzAwABADEBADkAQDU2&#xA;MDA0OTAwMjAwMDREMDA2RjAwNkUwMDY5MDA3NDAwNkYwMDcyMDA1MDAwNkMwMDc1MDA3MzAwAQAy&#xA;AQDDmQBANTcwMDUwMDA0NjAwNEYwMDYyMDA2QTAwNjUwMDYzMDA3NDAwMjgwMDIyMDA0ODAwNzcw&#xA;MDZFMDA2NDAwNTMwMDZGMDA3NTAwNzIwMDYzMDA2NTAwM0EwMDIwMDA0QzAwNkYwMDY3MDA2OTAw&#xA;NkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAwNzcwMDIyMDAyQzAwMjAwMDIyMDA1NjAwNDkwMDIwMDA0&#xA;RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3MjAwNTAwMDZDMDA3NTAwNzMwMDIyMDAyOTAwAQAwAQAt&#xA;AEA0QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAwNzcwMAAABQBuYW1lcwMA&#xA;AQAxAQAKAFduZENhcHRpb24BADIBAAQATmFtZQEAMAEAFwBSb290VmlzdWFsLkNsckNsYXNzTmFt&#xA;ZQAABgB2YWx1ZXMDAAEAMQEAOQBANTYwMDQ5MDAyMDAwNEQwMDZGMDA2RTAwNjkwMDc0MDA2RjAw&#xA;NzIwMDUwMDA2QzAwNzUwMDczMDABADIBAMOVAEA1NzAwNTAwMDQ2MDA0RjAwNjIwMDZBMDA2NTAw&#xA;NjMwMDc0MDAyODAwMjIwMDQ4MDA3NzAwNkUwMDY0MDA1MzAwNkYwMDc1MDA3MjAwNjMwMDY1MDAz&#xA;QTAwMjAwMDREMDA2MTAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAwNkYwMDc3MDAyMjAwMkMwMDIw&#xA;MDAyMjAwNTYwMDQ5MDAyMDAwNEQwMDZGMDA2RTAwNjkwMDc0MDA2RjAwNzIwMDUwMDA2QzAwNzUw&#xA;MDczMDAyMjAwMjkwMAEAMAEALQBANEMwMDZGMDA2NzAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAw&#xA;NkYwMDc3MDAAAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9051512153"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="23"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.btnTestConnectionServer"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.675990787"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="243"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="click point y" type="I" value="133"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="153"/>
+					<Prp name="object left" type="I" value="217"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="269"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.btnTestConnectionServer&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: PopupRoot&quot;, &quot;&quot;).WPFObject(&quot;PopupRoot&quot;, &quot;&quot;, 1).WPFObject(&quot;Decorator&quot;, &quot;&quot;, 1).WPFObject(&quot;NonLogicalAdornerDecorator&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;btnTestConnectionServer&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9051587269"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="25"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="message" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;During the test run, one or several test objects were not found, and the test engine tried to “heal” your test by replacing missing objects with similar ones automatically. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;If a replacement object is selected incorrectly, this can affect further behavior of your test and cause errors.&lt;/li&gt;&lt;li&gt;Please check all the preceding ‘Object was replaced with a similar object’ messages in the test log.&lt;/li&gt;&lt;li&gt;If the found replacement object meets your requirements, make sure to click the &lt;b&gt;Accept Intelligent Fix&lt;/b&gt; button.The mapping criteria will be updated, and the message will no longer appear for that object.&lt;/li&gt;&lt;li&gt;If the found replacement object was not the correct one, please update its mapping criteria manually.&lt;/li&gt;&lt;li&gt;To cancel the automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9052766667"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="26"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6759848148"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="563"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="875"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'demoip.com' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9051537153"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="23"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemTrainCameraH264"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.5032175926"/>
+					<Prp name="object top" type="I" value="219"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-181"/>
+					<Prp name="image file name" type="S" value="tcvi2722488431884449.png"/>
+					<Prp name="click point y" type="I" value="-102"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="251"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="262"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemTrainCameraH264"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6765342245"/>
+					<Prp name="object top" type="I" value="252"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="103"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="click point y" type="I" value="266"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="284"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="262"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 102, 14.&#xA;End point: 1377, 46.&#xA;Dragging distance: 1275, 32.&#xA;&#xA;Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemTrainCameraH264&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;MainWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;navLeft&quot;).WPFObject(&quot;gridExpanders&quot;).WPFObject(&quot;expServers&quot;).WPFObject(&quot;treeServers&quot;).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 2).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 2))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9057230324"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="41"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.Button"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.5030671296"/>
+					<Prp name="object top" type="I" value="200"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-181"/>
+					<Prp name="image file name" type="S" value="tcvi2722356401884444.png"/>
+					<Prp name="click point y" type="I" value="-102"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="313"/>
+					<Prp name="object left" type="I" value="625"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="776"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.Button"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6763376042"/>
+					<Prp name="object top" type="I" value="202"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="700"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="click point y" type="I" value="258"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="315"/>
+					<Prp name="object left" type="I" value="625"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="776"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.tabWorkspaces.Button&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;MainWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;tabWorkspaces&quot;).WPFObject(&quot;DefaultWorkspace&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 2).WPFObject(&quot;WrapPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;&quot;, 3))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9055365046"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="38"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.cboLoginMode"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.5003587963"/>
+					<Prp name="object top" type="I" value="184"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-524"/>
+					<Prp name="image file name" type="S" value="tcvi2720014371884412.png"/>
+					<Prp name="click point y" type="I" value="-230"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="223"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="784"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.cboLoginMode"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6755945718"/>
+					<Prp name="object top" type="I" value="184"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="223"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="784"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The combo box item 'Multiple Servers' was selected."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.cboLoginMode&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;LoginWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;LoginCanvas&quot;).WPFObject(&quot;LoginPanel&quot;).WPFObject(&quot;RightSideControls&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;cboLoginMode&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9047629861"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="13"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="message" type="S" value="The property checkpoint failed, because wText does not equal (case-sensitive) &quot;demoip.com&quot;. See Details for additional information."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiQQEW3dVAAAAlZJREFUWMPdl09o03AUx79pxDFoUohUBs2MHjwM2bzodthOstvw0N5WsF4r631bdl5a7ynsPCHe2sPoTtWTO0y9OBEPHrQuBWGskKwgE8LPkyFJf7/80UrD3imQ/PL5/t57v/fejyOEYJKWwYTtWtwPHcvGudEmw6NjDN+8hWNf+N7zooDsyiKyy0u4US5yfE6M9V8uKgSOZcNUNTJ42U60M2m9CFlTI4WECrA6XdLb2BrZbVzjRQFKs4Hc2iqXWICp7pKzvf2xxDlfrUDWdrjYSThOOACc7e3DVHdJLAFWpztWuFeE1emS0BA4lo1P9x+Rv415nJy49+G1LzEzftdrTDgvClD0OmY2a0zAzGYNil4HLwr0E2VfwFQ1QvWAY9k4ufOQsOB3D15gen4OADAwWujVtn3fKHodUrkEAPj58TO+PH7CPD0LX9+5XnA9cG60medR1lQXDgBSuQRFr1PhADA9PwdZU5me8rLcSjg8OmYuuDztjxYaD9D7HLbGy7r57Kk/BCe3H4QmX3CXYUYLUTCkC9/ec74QRGV+r7aNgdH6Z3iQlagbRomIA/9jv773yUTb8fVbBS6xgKg8CJ6ORAMJq3gkTcI4IrwsV0B2ZTG0wtHgA6NFzQmpXAqtmF6WWweyy0uwDl9RF0zNFiITLiiQtsbLSk0p9nXD3sYWc/TiRQGypuLytI8fz3VmqKZmCzBVjQmX1otQmg0une2Yz4lQmo3/dvaVZgPBIXWkDuTWVrl8tTJ2eL5aoQ6nGXr73RmriLChNL1jeSouJqm4ml352/Fv5slV5IB2SZUAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;failed&lt;/b&gt;, because Aliases.VIMonitorPlus.Hw...upRoot.txtNewServerName.wText&lt;b&gt; does not equal (case-sensitive) &lt;/b&gt;&quot;demoip.com&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{3D74D4F0-55FD-4D1A-98DA-1010958EE9A1}'&gt;Aliases.VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.txtNewServerName&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Server Unavailable&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;demoip.com&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9052767708"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="26"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.WindowButtonCommands"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6761736458"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="1857"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="click point y" type="I" value="19"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="39"/>
+					<Prp name="object left" type="I" value="1794"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="1921"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (63, 19) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.WindowButtonCommands&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;MainWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;WindowButtonCommands&quot;, &quot;&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9053417245"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="32"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="message" type="S" value="The property checkpoint passed: WPFControlText equals (case-sensitive) &quot;Administrator&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.VIMonitorPlus.Hw....TextblockAdministrator.WPFControlText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Administrator&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{23F153F6-7848-41E4-9185-E72543C53A46}'&gt;Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.WindowCommands.TextblockAdministrator&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;WPFControlText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Administrator&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Administrator&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9053452894"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="33"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.txtNewConnectionIPAddress"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6758512384"/>
+					<Prp name="object top" type="I" value="13"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="143"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="click point y" type="I" value="38"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="52"/>
+					<Prp name="object left" type="I" value="96"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="269"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (47, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.txtNewConnectionIPAddress&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: PopupRoot&quot;, &quot;&quot;).WPFObject(&quot;PopupRoot&quot;, &quot;&quot;, 1).WPFObject(&quot;Decorator&quot;, &quot;&quot;, 1).WPFObject(&quot;NonLogicalAdornerDecorator&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;txtNewConnectionIPAddress&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9050196065"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="22"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{58F10376-AB6F-4526-AACF-1AD4C4978946}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 400px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;vertical-align:top;text-align:left&quot;&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;aqObject.CheckProperty&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;VIMonitorPlus.&amp;#8203;&lt;a href=&quot;lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.Aliases.VIMonitorPlus.HwndSource_LoginWindow&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;HwndSource_LoginWindow&lt;/span&gt;&lt;/a&gt;.&amp;#8203;LoginWindow.&amp;#8203;&lt;a href=&quot;lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.Image&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: #00a5e5; font-weight: bold;&quot;&gt;Image&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;VIMonitorPlus.&amp;#8203;&lt;a href=&quot;lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.Aliases.VIMonitorPlus.HwndSource_LoginWindow&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;HwndSource_LoginWindow&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; }&lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;helpme://54Wh5r2zAQAEAHJvb3QMAAEAYgAAyLMABABtb2RlAAAAAAQAdHlwZQEACwBSZWNvZ25pdGlvbgYA&#xA;Y29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgEAdAAAAAAHAHByb2plY3QBACQAMUIzNzkx&#xA;NzZ4NkRFQXg0OUU4eEE1NTR4QkY3ODRBQTY5QUNDAQBsAAAAAAkAcHJvcGNvdW50AAADAAgAY2Fs&#xA;bG5hbWUBACwAQWxpYXNlcy5WSU1vbml0b3JQbHVzLkh3bmRTb3VyY2VfTG9naW5XaW5kb3cBAHIA&#xA;AM2rAAcAcGljZmlsZQEAKgB7NjY2QzVCOTQtM0YyNy00RTY3LUIxOEYtQzA0MDE5MEY5MzBBfS5w&#xA;bmcCAG5tAQAkADEwNjM5NTI5eDU2M0J4NDUyRXhCNTlDeENDNEZCQUNEMjAxOQQACwBmb3VuZHZh&#xA;bHVlcwMAAQAxAQA5AEA1NjAwNDkwMDIwMDA0RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3MjAwNTAw&#xA;MDZDMDA3NTAwNzMwMAEAMgEAw5kAQDU3MDA1MDAwNDYwMDRGMDA2MjAwNkEwMDY1MDA2MzAwNzQw&#xA;MDI4MDAyMjAwNDgwMDc3MDA2RTAwNjQwMDUzMDA2RjAwNzUwMDcyMDA2MzAwNjUwMDNBMDAyMDAw&#xA;NEMwMDZGMDA2NzAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAwNkYwMDc3MDAyMjAwMkMwMDIwMDAy&#xA;MjAwNTYwMDQ5MDAyMDAwNEQwMDZGMDA2RTAwNjkwMDc0MDA2RjAwNzIwMDUwMDA2QzAwNzUwMDcz&#xA;MDAyMjAwMjkwMAEAMAEALQBANEMwMDZGMDA2NzAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAwNkYw&#xA;MDc3MDAAAAYAdmFsdWVzAwABADEBADkAQDU2MDA0OTAwMjAwMDREMDA2RjAwNkUwMDY5MDA3NDAw&#xA;NkYwMDcyMDA1MDAwNkMwMDc1MDA3MzAwAQAyAQDDlQBANTcwMDUwMDA0NjAwNEYwMDYyMDA2QTAw&#xA;NjUwMDYzMDA3NDAwMjgwMDIyMDA0ODAwNzcwMDZFMDA2NDAwNTMwMDZGMDA3NTAwNzIwMDYzMDA2&#xA;NTAwM0EwMDIwMDA0RDAwNjEwMDY5MDA2RTAwNTcwMDY5MDA2RTAwNjQwMDZGMDA3NzAwMjIwMDJD&#xA;MDAyMDAwMjIwMDU2MDA0OTAwMjAwMDREMDA2RjAwNkUwMDY5MDA3NDAwNkYwMDcyMDA1MDAwNkMw&#xA;MDc1MDA3MzAwMjIwMDI5MDABADABAC0AQDRDMDA2RjAwNjcwMDY5MDA2RTAwNTcwMDY5MDA2RTAw&#xA;NjQwMDZGMDA3NzAwAAAHAG1hdGNoZWQDAAEAMQAA77+/57+/AQAyAAABAAEAMAAA77+/57+/AAAF&#xA;AG5hbWVzAwABADEBAAoAV25kQ2FwdGlvbgEAMgEABABOYW1lAQAwAQAXAFJvb3RWaXN1YWwuQ2xy&#xA;Q2xhc3NOYW1lAAA=&quot;&gt;Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;On the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt; tab, check if the object existed during the test run.&lt;/li&gt;&lt;li&gt;View the search criteria for the object in the &lt;a href=&quot;lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.Aliases.VIMonitorPlus.HwndSource_LoginWindow&quot;&gt;NameMapping editor&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{0A30D26C-566C-4CD8-8C8C-4329CF910577}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;file:///%%LogDir%%\{0A30D26C-566C-4CD8-8C8C-4329CF910577}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9043674769"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemSncEm641"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.503275463"/>
+					<Prp name="object top" type="I" value="343"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-181"/>
+					<Prp name="image file name" type="S" value="tcvi2722537501884452.png"/>
+					<Prp name="click point y" type="I" value="-102"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="375"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="262"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemSncEm641"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6766741204"/>
+					<Prp name="object top" type="I" value="376"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="68"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="click point y" type="I" value="393"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="408"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="262"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 67, 17.&#xA;End point: 554, 402.&#xA;Dragging distance: 487, 385.&#xA;&#xA;Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemSncEm641&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;MainWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;navLeft&quot;).WPFObject(&quot;gridExpanders&quot;).WPFObject(&quot;expServers&quot;).WPFObject(&quot;treeServers&quot;).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 2).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 6))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9058619907"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="44"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.btnUpdateConnectionServer"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.676111956"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="157"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="click point y" type="I" value="184"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="204"/>
+					<Prp name="object left" type="I" value="126"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="189"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_PopupRoot.PopupRoot.btnUpdateConnectionServer&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: PopupRoot&quot;, &quot;&quot;).WPFObject(&quot;PopupRoot&quot;, &quot;&quot;, 1).WPFObject(&quot;Decorator&quot;, &quot;&quot;, 1).WPFObject(&quot;NonLogicalAdornerDecorator&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;btnUpdateConnectionServer&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9052805093"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="27"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="message" type="S" value="The object &quot;TreeviewitemParkingCameraH265&quot; does not exist."/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 400px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;vertical-align:top;text-align:left&quot;&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;WaitWPFObject&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;VIMonitorPlus.&amp;#8203;HwndSource_MainWindow.&amp;#8203;MainWindow.&amp;#8203;treeServers.&amp;#8203;TreeviewitemDemoipCom.&amp;#8203;&lt;a href=&quot;lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemParkingCameraH265&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;TreeviewitemParkingCameraH265&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;On the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt; tab, check if the object existed during the test run.&lt;/li&gt;&lt;li&gt;View the search criteria for the object in the &lt;a href=&quot;lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemParkingCameraH265&quot;&gt;NameMapping editor&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{12BE21D9-106B-44FC-8BCC-B058C193946E}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;file:///%%LogDir%%\{12BE21D9-106B-44FC-8BCC-B058C193946E}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="date" type="D" value="44725.905501794"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture10.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="37"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="The application &quot;C:\Program Files\VI Enterprise\VI MonitorPlus\VIMonitorPlus.exe&quot; started."/>
+			<Prp name="remarks" type="S" value="The process ID is 15628."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9041720602"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="message" type="S" value="The &quot;HwndSource_LoginWindow&quot; object was replaced with a similar object."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;VIMonitorPlus.&amp;#8203;&lt;a href=&quot;namemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{10639529-563B-452E-B59C-CC4FBACD2019}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;HwndSource_LoginWindow&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;RootVisual.ClrClassName&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAEAdAAAAAACAG5tAQAkADEwNjM5NTI5eDU2M0J4NDUyRXhCNTlDeEND&#xA;NEZCQUNEMjAxOQQAdHlwZQEACwBSZWNvZ25pdGlvbgQAbW9kZQAAAAAGAGNvbmZpZwEAFQBEZWZh&#xA;dWx0IENvbmZpZ3VyYXRpb24BAHIAAM2rAAcAcHJvamVjdAEAJAAxQjM3OTE3Nng2REVBeDQ5RTh4&#xA;QTU1NHhCRjc4NEFBNjlBQ0MBAGIAAMizAAcAcGljZmlsZQEAKgB7QTNDNjE1RTAtNzIyMy00NDJF&#xA;LUJBNTQtNDIxQzQzMkVGRjg5fS5wbmcBAGwAAAAACQBwcm9wY291bnQAAAMABAAFAG5hbWVzAwAB&#xA;ADEBAAoAV25kQ2FwdGlvbgEAMgEABABOYW1lAQAwAQAXAFJvb3RWaXN1YWwuQ2xyQ2xhc3NOYW1l&#xA;AAALAGZvdW5kdmFsdWVzAwABADEBADkAQDU2MDA0OTAwMjAwMDREMDA2RjAwNkUwMDY5MDA3NDAw&#xA;NkYwMDcyMDA1MDAwNkMwMDc1MDA3MzAwAQAyAQDDmQBANTcwMDUwMDA0NjAwNEYwMDYyMDA2QTAw&#xA;NjUwMDYzMDA3NDAwMjgwMDIyMDA0ODAwNzcwMDZFMDA2NDAwNTMwMDZGMDA3NTAwNzIwMDYzMDA2&#xA;NTAwM0EwMDIwMDA0QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAwNzcwMDIy&#xA;MDAyQzAwMjAwMDIyMDA1NjAwNDkwMDIwMDA0RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3MjAwNTAw&#xA;MDZDMDA3NTAwNzMwMDIyMDAyOTAwAQAwAQAtAEA0QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAw&#xA;NkUwMDY0MDA2RjAwNzcwMAAABgB2YWx1ZXMDAAEAMQEAOQBANTYwMDQ5MDAyMDAwNEQwMDZGMDA2&#xA;RTAwNjkwMDc0MDA2RjAwNzIwMDUwMDA2QzAwNzUwMDczMDABADIBAMOVAEA1NzAwNTAwMDQ2MDA0&#xA;RjAwNjIwMDZBMDA2NTAwNjMwMDc0MDAyODAwMjIwMDQ4MDA3NzAwNkUwMDY0MDA1MzAwNkYwMDc1&#xA;MDA3MjAwNjMwMDY1MDAzQTAwMjAwMDREMDA2MTAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAwNkYw&#xA;MDc3MDAyMjAwMkMwMDIwMDAyMjAwNTYwMDQ5MDAyMDAwNEQwMDZGMDA2RTAwNjkwMDc0MDA2RjAw&#xA;NzIwMDUwMDA2QzAwNzUwMDczMDAyMjAwMjkwMAEAMAEALQBANEMwMDZGMDA2NzAwNjkwMDZFMDA1&#xA;NzAwNjkwMDZFMDA2NDAwNkYwMDc3MDAAAAcAbWF0Y2hlZAMAAQAxAADvv7/nv78BADIAAAEAAQAw&#xA;AADvv7/nv78AAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9046257176"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="message" type="S" value="The property checkpoint passed: WPFControlText equals (case-sensitive) &quot;demoip.com&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.VIMonitorPlus.Hw...pCom.TextblockDemoipCom.WPFControlText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;demoip.com&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{ED9BC0CC-3397-4D33-B4BF-2984112D2935}'&gt;Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TextblockDemoipCom&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;WPFControlText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;demoip.com&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;demoip.com&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9053541319"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture9.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="36"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemParkingCameraH265"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.5031712963"/>
+					<Prp name="object top" type="I" value="187"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-181"/>
+					<Prp name="image file name" type="S" value="tcvi2722444681884446.png"/>
+					<Prp name="click point y" type="I" value="-102"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="220"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="262"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemParkingCameraH265"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6764066667"/>
+					<Prp name="object top" type="I" value="220"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="95"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="262"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 94, 14.&#xA;End point: 560, 70.&#xA;Dragging distance: 466, 56.&#xA;&#xA;Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_MainWindow.MainWindow.treeServers.TreeviewitemDemoipCom.TreeviewitemParkingCameraH265&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;MainWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;navLeft&quot;).WPFObject(&quot;gridExpanders&quot;).WPFObject(&quot;expServers&quot;).WPFObject(&quot;treeServers&quot;).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 2).WPFObject(&quot;TreeViewItem&quot;, &quot;&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9055813079"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="39"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6759876042"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="563"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="875"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'4021' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9051554167"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="24"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.txtPassword"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.5002314815"/>
+					<Prp name="object top" type="I" value="340"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-524"/>
+					<Prp name="image file name" type="S" value="tcvi271990734188447.png"/>
+					<Prp name="click point y" type="I" value="-230"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="379"/>
+					<Prp name="object left" type="I" value="86"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="306"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object name" type="S" value="Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.txtPassword"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="44725.6754593866"/>
+					<Prp name="object top" type="I" value="340"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="379"/>
+					<Prp name="object left" type="I" value="86"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="306"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The value of the DemoProject-IPro.DemoProject-IPro.Password variable was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.VIMonitorPlus.HwndSource_LoginWindow.LoginWindow.txtPassword&#xA;(Sys.Process(&quot;VIMonitorPlus&quot;).WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;).WPFObject(&quot;LoginWindow&quot;, &quot;VI MonitorPlus&quot;, 1).WPFObject(&quot;LoginCanvas&quot;).WPFObject(&quot;LoginPanel&quot;).WPFObject(&quot;LeftSideControls&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;txtPassword&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9046265394"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="message" type="S" value="The &quot;HwndSource_LoginWindow&quot; object was replaced with a similar object."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;VIMonitorPlus.&amp;#8203;&lt;a href=&quot;namemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{10639529-563B-452E-B59C-CC4FBACD2019}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;HwndSource_LoginWindow&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;RootVisual.ClrClassName&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAEAYgAAyLMAAQByAADNqwAGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZp&#xA;Z3VyYXRpb24EAHR5cGUBAAsAUmVjb2duaXRpb24BAHQAAAAAAgBubQEAJAAxMDYzOTUyOXg1NjNC&#xA;eDQ1MkV4QjU5Q3hDQzRGQkFDRDIwMTkBAGwAAAAABwBwcm9qZWN0AQAkADFCMzc5MTc2eDZERUF4&#xA;NDlFOHhBNTU0eEJGNzg0QUE2OUFDQwQAbW9kZQAAAAAHAHBpY2ZpbGUBACoAezc1QzYwMTkwLTBD&#xA;QTUtNDE4NS1BNTNDLTgwREIyREQzNjE0Rn0ucG5nCQBwcm9wY291bnQAAAMABAALAGZvdW5kdmFs&#xA;dWVzAwABADEBADkAQDU2MDA0OTAwMjAwMDREMDA2RjAwNkUwMDY5MDA3NDAwNkYwMDcyMDA1MDAw&#xA;NkMwMDc1MDA3MzAwAQAyAQDDmQBANTcwMDUwMDA0NjAwNEYwMDYyMDA2QTAwNjUwMDYzMDA3NDAw&#xA;MjgwMDIyMDA0ODAwNzcwMDZFMDA2NDAwNTMwMDZGMDA3NTAwNzIwMDYzMDA2NTAwM0EwMDIwMDA0&#xA;QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAwNzcwMDIyMDAyQzAwMjAwMDIy&#xA;MDA1NjAwNDkwMDIwMDA0RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3MjAwNTAwMDZDMDA3NTAwNzMw&#xA;MDIyMDAyOTAwAQAwAQAtAEA0QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAw&#xA;NzcwMAAABQBuYW1lcwMAAQAxAQAKAFduZENhcHRpb24BADIBAAQATmFtZQEAMAEAFwBSb290Vmlz&#xA;dWFsLkNsckNsYXNzTmFtZQAABgB2YWx1ZXMDAAEAMQEAOQBANTYwMDQ5MDAyMDAwNEQwMDZGMDA2&#xA;RTAwNjkwMDc0MDA2RjAwNzIwMDUwMDA2QzAwNzUwMDczMDABADIBAMOVAEA1NzAwNTAwMDQ2MDA0&#xA;RjAwNjIwMDZBMDA2NTAwNjMwMDc0MDAyODAwMjIwMDQ4MDA3NzAwNkUwMDY0MDA1MzAwNkYwMDc1&#xA;MDA3MjAwNjMwMDY1MDAzQTAwMjAwMDREMDA2MTAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAwNkYw&#xA;MDc3MDAyMjAwMkMwMDIwMDAyMjAwNTYwMDQ5MDAyMDAwNEQwMDZGMDA2RTAwNjkwMDc0MDA2RjAw&#xA;NzIwMDUwMDA2QzAwNzUwMDczMDAyMjAwMjkwMAEAMAEALQBANEMwMDZGMDA2NzAwNjkwMDZFMDA1&#xA;NzAwNjkwMDZFMDA2NDAwNkYwMDc3MDAAAAcAbWF0Y2hlZAMAAQAxAADvv7/nv78BADIAAAEAAQAw&#xA;AADvv7/nv78AAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.9050064583"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="20"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="The &quot;HwndSource_LoginWindow&quot; object was replaced with a similar object."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;VIMonitorPlus.&amp;#8203;&lt;a href=&quot;namemapping://{1B379176-6DEA-49E8-A554-BF784AA69ACC}.{10639529-563B-452E-B59C-CC4FBACD2019}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;HwndSource_LoginWindow&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;RootVisual.ClrClassName&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;LoginWindow&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;VI MonitorPlus&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;WPFObject(&quot;HwndSource: LoginWindow&quot;, &quot;VI MonitorPlus&quot;)&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAkAcHJvcGNvdW50AAADAAEAcgAAzasAAQBiAADIswAEAHR5cGUBAAsA&#xA;UmVjb2duaXRpb24HAHBpY2ZpbGUBACoAezk0REU4Q0E2LUI5RDMtNDVBNS04NjAwLTM4MjQxQTE0&#xA;QUU2Mn0ucG5nAgBubQEAJAAxMDYzOTUyOXg1NjNCeDQ1MkV4QjU5Q3hDQzRGQkFDRDIwMTkHAHBy&#xA;b2plY3QBACQAMUIzNzkxNzZ4NkRFQXg0OUU4eEE1NTR4QkY3ODRBQTY5QUNDAQBsAAAAAAQAbW9k&#xA;ZQAAAAABAHQAAAAABgBjb25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uBAALAGZvdW5kdmFs&#xA;dWVzAwABADEBADkAQDU2MDA0OTAwMjAwMDREMDA2RjAwNkUwMDY5MDA3NDAwNkYwMDcyMDA1MDAw&#xA;NkMwMDc1MDA3MzAwAQAyAQDDmQBANTcwMDUwMDA0NjAwNEYwMDYyMDA2QTAwNjUwMDYzMDA3NDAw&#xA;MjgwMDIyMDA0ODAwNzcwMDZFMDA2NDAwNTMwMDZGMDA3NTAwNzIwMDYzMDA2NTAwM0EwMDIwMDA0&#xA;QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAwNzcwMDIyMDAyQzAwMjAwMDIy&#xA;MDA1NjAwNDkwMDIwMDA0RDAwNkYwMDZFMDA2OTAwNzQwMDZGMDA3MjAwNTAwMDZDMDA3NTAwNzMw&#xA;MDIyMDAyOTAwAQAwAQAtAEA0QzAwNkYwMDY3MDA2OTAwNkUwMDU3MDA2OTAwNkUwMDY0MDA2RjAw&#xA;NzcwMAAABQBuYW1lcwMAAQAxAQAKAFduZENhcHRpb24BADIBAAQATmFtZQEAMAEAFwBSb290Vmlz&#xA;dWFsLkNsckNsYXNzTmFtZQAABgB2YWx1ZXMDAAEAMQEAOQBANTYwMDQ5MDAyMDAwNEQwMDZGMDA2&#xA;RTAwNjkwMDc0MDA2RjAwNzIwMDUwMDA2QzAwNzUwMDczMDABADIBAMOVAEA1NzAwNTAwMDQ2MDA0&#xA;RjAwNjIwMDZBMDA2NTAwNjMwMDc0MDAyODAwMjIwMDQ4MDA3NzAwNkUwMDY0MDA1MzAwNkYwMDc1&#xA;MDA3MjAwNjMwMDY1MDAzQTAwMjAwMDREMDA2MTAwNjkwMDZFMDA1NzAwNjkwMDZFMDA2NDAwNkYw&#xA;MDc3MDAyMjAwMkMwMDIwMDAyMjAwNTYwMDQ5MDAyMDAwNEQwMDZGMDA2RTAwNjkwMDc0MDA2RjAw&#xA;NzIwMDUwMDA2QzAwNzUwMDczMDAyMjAwMjkwMAEAMAEALQBANEMwMDZGMDA2NzAwNjkwMDZFMDA1&#xA;NzAwNjkwMDZFMDA2NDAwNkYwMDc3MDAAAAcAbWF0Y2hlZAMAAQAxAADvv7/nv78BADIAAAEAAQAw&#xA;AADvv7/nv78AAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="44725.904500162"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
